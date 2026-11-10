@@ -1,7 +1,5 @@
 # GC575 research export
 
-Evidence recorded through 2026-11-08. Export prepared 2026-11-10.
-
 This package documents the AVerMedia GC575 (`07ca:0575`) USB control transport, captured command exchanges, recovered host-side control layouts, and remaining implementation gaps. It includes original small packet captures, offline decoders and selected static-analysis evidence. No vendor DLL, firmware image, executable or analysis database is included.
 
 Recovered historical artifacts confirm descriptor programming and physical readback exposing 1920×1080 YUY2 at a nominal 240 fps. Native capture negotiated that mode, with the cleanest retest measuring ~221 samples/sec and ~220 distinct counter IDs/sec. A historical report also confirms exposure/negotiation of 2560×1440 MJPEG at 240 fps, but its original burn/readback chain remains incomplete. The separate AT23 system-information query is independently verified without vendor SDK initialization. Configurable MJPEG quality, hardware ROI and device-latency improvement remain unverified.
