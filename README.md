@@ -16,6 +16,8 @@ Recovered historical artifacts confirm descriptor programming and physical readb
 | [Audio controls](05-AUDIO-CONTROLS.md) | Official helper's resolved audio APIs and initialization behavior |
 | [Offline analysis](06-OFFLINE-ANALYSIS.md) | Capture decoding commands and measurement fields |
 | [Protocol and device boundary](07-PROTOCOL-BOUNDARY.md) | Framing, descriptor provenance and USB versus host-address namespaces |
+| [Firmware RE](09-FIRMWARE-RE.md) | Container/resources, auxiliary firmware, rescue cryptography and unresolved main execution |
+| [Vendor DLL RE](10-VENDOR-DLL-RE.md) | Build identities, application/backend dispatch, KS transport and RBUS/I²C implementation |
 | [Evidence guide](evidence/README.md) | Included artifacts, identities and original project locations |
 
 Evidence categories used throughout:

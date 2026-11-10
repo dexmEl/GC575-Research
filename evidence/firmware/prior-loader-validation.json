@@ -1,0 +1,17 @@
+{
+  "kind": "offline_actual_artifact_regression",
+  "date": "2026-11-08",
+  "environment": "WSL Ubuntu, Python 3",
+  "test_command": "python3 -m unittest discover -s /mnt/d/gc575-re/research/evidence/coordination-20261108/loader-structure -p test_loader_structure.py -v",
+  "tests": 8,
+  "passed": 8,
+  "failed": 0,
+  "hardware_io": false,
+  "windows_target_execution": false,
+  "input_mutation": false,
+  "record_self_consistency": "RSA-2048/SHA256 DigestInfo and Montgomery R-squared confirmed",
+  "signed_raw_payload_mapping": "unresolved",
+  "payload_integrity_verified": false,
+  "vendor_trust_verified": false,
+  "main_isa_or_loader_recovered": false
+}

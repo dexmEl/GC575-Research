@@ -1,0 +1,28 @@
+{
+  "identity_va": "0x1801ec020",
+  "identity_dwords": [
+    23,
+    1,
+    1994,
+    1397
+  ],
+  "row_size": "0x90",
+  "row_stack_base": "RSP+0x20",
+  "rbp_equals": "RSP+0x100",
+  "generic_xu_flag": {
+    "record_offset": "0x1c",
+    "value": 0,
+    "instruction": "0x1800459c3"
+  },
+  "rtk_flag": {
+    "record_offset": "0x7b",
+    "value": 1,
+    "instruction": "0x180045a00",
+    "explanation": "DWORD[rbp-0x68]=0x01000000; byte rbp-0x65=RSP+0x9b=row+0x7b"
+  },
+  "main_version_flag": {
+    "record_offset": "0x46",
+    "value": 1,
+    "instruction": "0x1800459da"
+  }
+}

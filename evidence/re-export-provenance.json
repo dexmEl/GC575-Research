@@ -1,0 +1,143 @@
+{
+  "scope": "Unchanged selected firmware and host static-analysis exports; no new decompilation or target execution",
+  "files": [
+    {
+      "export_path": "evidence/firmware/sections.json",
+      "source_path": "/mnt/d/gc575-re/research/evidence/firmware-sections.json",
+      "bytes": 10672,
+      "sha256": "f28ac9e7cfa69626c77bae698df66935b7e34cfe964c3feb8f52d04189aa2887"
+    },
+    {
+      "export_path": "evidence/firmware/loader-structure.json",
+      "source_path": "/mnt/d/gc575-re/research/evidence/coordination-20261108/loader-structure/loader-structure.json",
+      "bytes": 195960,
+      "sha256": "f7a89700e4af3197e34e8c263b76f36e2bde84f8c260ddbedafe348c87ebd729"
+    },
+    {
+      "export_path": "evidence/firmware/rescue-inner-record.json",
+      "source_path": "/mnt/d/gc575-re/research/evidence/coordination-20261108/loader-structure/rescue-inner-record.json",
+      "bytes": 3173,
+      "sha256": "b5fae731fb476179d5b9d82d66f46ded0c8db165e2f5934b3a9ca4b5c412670d"
+    },
+    {
+      "export_path": "evidence/firmware/prior-loader-validation.json",
+      "source_path": "/mnt/d/gc575-re/research/evidence/coordination-20261108/loader-structure/validation.json",
+      "bytes": 659,
+      "sha256": "7d602260005e9cb3890e774550281130ce704ef890ad9f7ef29b1befb4bbde93"
+    },
+    {
+      "export_path": "evidence/firmware/loader-key-host-search.json",
+      "source_path": "/mnt/d/gc575-re/research/evidence/coordination-20261108/loader-key-host-search.json",
+      "bytes": 16359,
+      "sha256": "6e9391bff6b179ab767af3a5bd2b0e6d169645159de199b8a2e0df4ee38ed499"
+    },
+    {
+      "export_path": "evidence/vendor-dlls/host-dispatch-boundary.txt",
+      "source_path": "/mnt/d/gc575-re/research/evidence/coordination-20261108/host-dispatch-boundary.txt",
+      "bytes": 27409,
+      "sha256": "41ea6f0af3d975471c5945ab56857266b66854df357381820f8d8f139a6495bf"
+    },
+    {
+      "export_path": "evidence/vendor-dlls/at-semantic-comparison.json",
+      "source_path": "/mnt/d/gc575-re/research/evidence/at-semantic-comparison.json",
+      "bytes": 74100,
+      "sha256": "707eecb97cb1d89c94e93c4b11ff9ff108324a4e58f4ca039ccddf11e5131bb2"
+    },
+    {
+      "export_path": "evidence/vendor-dlls/gc575-gates.json",
+      "source_path": "/mnt/d/gc575-re/research/evidence/streaming-center/gc575-gates.json",
+      "bytes": 575,
+      "sha256": "55907652cca26fc848036c798410df93e1b1b7227af11197f7f8752fb31081fc"
+    },
+    {
+      "export_path": "evidence/vendor-dlls/vtable-slots.json",
+      "source_path": "/mnt/d/gc575-re/research/evidence/streaming-center/vtable-slots.json",
+      "bytes": 176,
+      "sha256": "4a46679f979db05c4e377b0d80f48cda7ddf9b51acd7c84599a2fe2022026911"
+    },
+    {
+      "export_path": "evidence/vendor-dlls/sdk-rtk-methods.c",
+      "source_path": "/mnt/d/gc575-re/research/evidence/streaming-center/sdk-rtk-methods.c",
+      "bytes": 13129,
+      "sha256": "8e96e03dcacfbd4ca48752512e742b2f1591a715b7bb4d40f048afafb0dd6add"
+    },
+    {
+      "export_path": "evidence/vendor-dlls/sdk-device-selection.c",
+      "source_path": "/mnt/d/gc575-re/research/evidence/streaming-center/sdk-device-selection.c",
+      "bytes": 3309,
+      "sha256": "0bb47fcc605c39dd1dfa1233a857fd88908db257130ef1c4a07d87232f296116"
+    },
+    {
+      "export_path": "evidence/vendor-dlls/rtice-selection-x64.c",
+      "source_path": "/mnt/d/gc575-re/research/evidence/phase2-static/rtice-selection-x64.c",
+      "bytes": 3189,
+      "sha256": "47afaebaefe18361b40209bef0cf8d0975ba77d47c709564e1d1c4a6fe9798b3"
+    },
+    {
+      "export_path": "evidence/vendor-dlls/uvc-port-x64.c",
+      "source_path": "/mnt/d/gc575-re/research/evidence/phase2-static/uvc-port-x64.c",
+      "bytes": 13146,
+      "sha256": "af41c5e7a6af9aabcdb753916214b42586388cf2ab508932cc79235eee8a4e2e"
+    },
+    {
+      "export_path": "evidence/vendor-dlls/uvc-bridge-x64.c",
+      "source_path": "/mnt/d/gc575-re/research/evidence/phase2-static/uvc-bridge-x64.c",
+      "bytes": 1032,
+      "sha256": "ad5ab016837954fd2cc054a8b8fd97fab6bfeaa8106e4fe1c1e7a095756f79b4"
+    },
+    {
+      "export_path": "evidence/vendor-dlls/ks-boundary-x64.c",
+      "source_path": "/mnt/d/gc575-re/research/evidence/phase2-static/ks-boundary-x64.c",
+      "bytes": 3600,
+      "sha256": "50268c9cdce0b2048e0316cd07a2012a37e99fee58a2ada35f596fe3a631b2f1"
+    },
+    {
+      "export_path": "evidence/vendor-dlls/rbus-i2c-evidence.json",
+      "source_path": "/mnt/d/gc575-re/phase3/analysis/rbus-i2c-evidence.json",
+      "bytes": 16567,
+      "sha256": "1badf27ff393a7e47419b2209984565fe0c1f5e13e57654904897d20af8511c7"
+    },
+    {
+      "export_path": "evidence/vendor-dlls/rbus-branch-source-audit.json",
+      "source_path": "/mnt/d/gc575-re/research/evidence/coordination-20261108/rbus/source-audit.json",
+      "bytes": 4249,
+      "sha256": "a8468ca1814f8f2f89eb15f790125245234d63f41549079e77f9aa7eaae8935f"
+    },
+    {
+      "export_path": "evidence/vendor-dlls/rbus-x64-deep.c",
+      "source_path": "/mnt/d/gc575-re/research/evidence/rbus/rbus-x64-deep.c",
+      "bytes": 13714,
+      "sha256": "148e4a9093f1b4f02f317700327714957451ed752479941a39aa4db1fd707156"
+    },
+    {
+      "export_path": "evidence/vendor-dlls/official-audio-helper-internal.c",
+      "source_path": "/mnt/d/gc575-re/phase3/analysis/official-device-opener-internal.c",
+      "bytes": 72766,
+      "sha256": "d24fc23ae5da4c228ae225ec9d078526c272a0ce3b33a12de181098c36a3beb2"
+    },
+    {
+      "export_path": "evidence/firmware/original-extraction-ledger.json",
+      "source_path": "/home/dexmel/gc575-re/analysis/dtup-sections.json",
+      "bytes": 18494,
+      "sha256": "f12ad1fb6090688d2692d8f90e6bb3951727a0156ac03c73c76fe3ac7446361f"
+    },
+    {
+      "export_path": "evidence/firmware/ene-control-trace.txt",
+      "source_path": "/home/dexmel/gc575-re/analysis/ghidra/ene-control-trace.txt",
+      "bytes": 390407,
+      "sha256": "2fe06af221faac5993d6bf9f19169d45aa0972f802aa7c6e4bec2c506778f679"
+    },
+    {
+      "export_path": "evidence/firmware/mcu-control-trace.txt",
+      "source_path": "/home/dexmel/gc575-re/analysis/ghidra/mcu-control-trace.txt",
+      "bytes": 229344,
+      "sha256": "6b7f667de49a1cb9c94c6c951ed4d281350fec4b7830592cbb65f0d8bb14f627"
+    },
+    {
+      "export_path": "evidence/firmware/mcu-recovered-switch.txt",
+      "source_path": "/home/dexmel/gc575-re/analysis/ghidra/mcu-recovered-switch.txt",
+      "bytes": 2093,
+      "sha256": "94c6d8e4d79eea778d2c7fda744fb9b32e1e57e9221d95a41dff1f34f41e8805"
+    }
+  ]
+}

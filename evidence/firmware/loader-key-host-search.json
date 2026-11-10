@@ -1,0 +1,375 @@
+{
+  "schema": 1,
+  "source_record": "loader-structure/rescue-inner-record.json",
+  "scope": "Exact full-width new rescue RSA record constants in preserved PE-inventory inputs only.",
+  "unique_identities_searched": 50,
+  "files": [
+    {
+      "path": "/mnt/d/gc575-re/7z.exe",
+      "inventoried_sha256": "aa4d81060c3be4673ca419cdf8684da0281c6b8edf670490bde6beb3ce15e08d",
+      "actual_sha256": "aa4d81060c3be4673ca419cdf8684da0281c6b8edf670490bde6beb3ce15e08d",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/D3Dcompiler_47.dll",
+      "inventoried_sha256": "efbdbbcd0d954f8fdc53467de5d89ad525e4e4a9cfff8a15d07c6fdb350c407f",
+      "actual_sha256": "efbdbbcd0d954f8fdc53467de5d89ad525e4e4a9cfff8a15d07c6fdb350c407f",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/Live Gamer 4K 2.1 FwUpdateTool.exe",
+      "inventoried_sha256": "a6415ba75871d757477124807e8fe7b784491dcf590445cbbad8f839e8904caf",
+      "actual_sha256": "a6415ba75871d757477124807e8fe7b784491dcf590445cbbad8f839e8904caf",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/Qt5Core.dll",
+      "inventoried_sha256": "80a72ccfe215c4d0b99da8a81d1b8855933cef712e9f5619aac6714317f1065b",
+      "actual_sha256": "80a72ccfe215c4d0b99da8a81d1b8855933cef712e9f5619aac6714317f1065b",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/Qt5Gui.dll",
+      "inventoried_sha256": "03d91f08f4220ae92d6d7fc8ab093927ee7d1885bffaf0a8d7c975bc8c5a3bbd",
+      "actual_sha256": "03d91f08f4220ae92d6d7fc8ab093927ee7d1885bffaf0a8d7c975bc8c5a3bbd",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/Qt5Svg.dll",
+      "inventoried_sha256": "40d56b75159ffe9d5f5781fa8ba5a4a22363283dc0247e45b18e341bff9eb6f6",
+      "actual_sha256": "40d56b75159ffe9d5f5781fa8ba5a4a22363283dc0247e45b18e341bff9eb6f6",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/Qt5Widgets.dll",
+      "inventoried_sha256": "7b1f5130e14752a22122b91d7890c56363361803189dad1c16516538ca17a559",
+      "actual_sha256": "7b1f5130e14752a22122b91d7890c56363361803189dad1c16516538ca17a559",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/RTICE_SDK_x64.dll",
+      "inventoried_sha256": "d9fb4935318664bd5fada38f3e705dcf97a4b7fbd581f27f3b70d7d28392c826",
+      "actual_sha256": "d9fb4935318664bd5fada38f3e705dcf97a4b7fbd581f27f3b70d7d28392c826",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/RTICE_SDK_x86.dll",
+      "inventoried_sha256": "b2c4435ca54f6a4533bdbcf6fddda6e85bceda006210bc33c07dfea5231972bb",
+      "actual_sha256": "b2c4435ca54f6a4533bdbcf6fddda6e85bceda006210bc33c07dfea5231972bb",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/RTK_IO_x64.dll",
+      "inventoried_sha256": "b5c60027e04979106e37567bb35274c9ebeeb6f05c6e1037a6e58991d881a1c7",
+      "actual_sha256": "b5c60027e04979106e37567bb35274c9ebeeb6f05c6e1037a6e58991d881a1c7",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/RTK_IO_x86.dll",
+      "inventoried_sha256": "ff92321af82a24a107bc2f31fd05a1a455c02b9477cedab1f66b37d38c50c382",
+      "actual_sha256": "ff92321af82a24a107bc2f31fd05a1a455c02b9477cedab1f66b37d38c50c382",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/g3log.dll",
+      "inventoried_sha256": "2dc5bfe7ca9578b6be9a761a930436b13309de6fd4bfcd3301eff8b8b54cd6b5",
+      "actual_sha256": "2dc5bfe7ca9578b6be9a761a930436b13309de6fd4bfcd3301eff8b8b54cd6b5",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/iconengines/qsvgicon.dll",
+      "inventoried_sha256": "a9d1f95efcd9d5f29f701d55a5ca552129d725d1353d2c93cba5c3c8a0370dff",
+      "actual_sha256": "a9d1f95efcd9d5f29f701d55a5ca552129d725d1353d2c93cba5c3c8a0370dff",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/iconengines/qsvgicond.dll",
+      "inventoried_sha256": "6d6cf6cf8b05aeba3266b0b176e1a78c1ed68a1e74db2777954301f1e99105ec",
+      "actual_sha256": "6d6cf6cf8b05aeba3266b0b176e1a78c1ed68a1e74db2777954301f1e99105ec",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/imageformats/qgif.dll",
+      "inventoried_sha256": "6e2da3b779f65c2ab4db5f4a15983b2b0b55c1b598d6b8dacebc635e030d935a",
+      "actual_sha256": "6e2da3b779f65c2ab4db5f4a15983b2b0b55c1b598d6b8dacebc635e030d935a",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/imageformats/qgifd.dll",
+      "inventoried_sha256": "ad75f21def3d1292aecf7502847ef364df50ce0aafd58eb20769fe1976734b80",
+      "actual_sha256": "ad75f21def3d1292aecf7502847ef364df50ce0aafd58eb20769fe1976734b80",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/imageformats/qicns.dll",
+      "inventoried_sha256": "29f5e0acb7e0ceb9d179125537698907ebd667fc7a33c2a19bbc507dee50dbd1",
+      "actual_sha256": "29f5e0acb7e0ceb9d179125537698907ebd667fc7a33c2a19bbc507dee50dbd1",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/imageformats/qicnsd.dll",
+      "inventoried_sha256": "ce4e890f8d877a119f2ea52b6e506d7dcf4b21e0670ba6103a6f4359effb7288",
+      "actual_sha256": "ce4e890f8d877a119f2ea52b6e506d7dcf4b21e0670ba6103a6f4359effb7288",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/imageformats/qico.dll",
+      "inventoried_sha256": "9729a492f184bef2de3c26e9a25196b9ca3fc6e6a4d793e28df54ff8dda8db7d",
+      "actual_sha256": "9729a492f184bef2de3c26e9a25196b9ca3fc6e6a4d793e28df54ff8dda8db7d",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/imageformats/qicod.dll",
+      "inventoried_sha256": "8783e0a694dad98eb8b35c61f02d3483f792ce146dc7578135380a58d77f1f2d",
+      "actual_sha256": "8783e0a694dad98eb8b35c61f02d3483f792ce146dc7578135380a58d77f1f2d",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/imageformats/qjpeg.dll",
+      "inventoried_sha256": "2f98562e7afeeacbf970d86fc840d8d4bea53593414f54eacbb5f62869b8e7bf",
+      "actual_sha256": "2f98562e7afeeacbf970d86fc840d8d4bea53593414f54eacbb5f62869b8e7bf",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/imageformats/qjpegd.dll",
+      "inventoried_sha256": "cf4d42c1a2391fc8e5c735f57b8a1eaaf62c7b8e99a1154d468d2b599a5cddea",
+      "actual_sha256": "cf4d42c1a2391fc8e5c735f57b8a1eaaf62c7b8e99a1154d468d2b599a5cddea",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/imageformats/qsvg.dll",
+      "inventoried_sha256": "fdb28c9c0803738a014fd1cafba13c003e35afd5fc4cfa8529489b33db9d1841",
+      "actual_sha256": "fdb28c9c0803738a014fd1cafba13c003e35afd5fc4cfa8529489b33db9d1841",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/imageformats/qsvgd.dll",
+      "inventoried_sha256": "a1d15d403afbcd00dbb92594dcc6be1107ec98c9ab927b75471e68db1156d5cf",
+      "actual_sha256": "a1d15d403afbcd00dbb92594dcc6be1107ec98c9ab927b75471e68db1156d5cf",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/imageformats/qtga.dll",
+      "inventoried_sha256": "fcd340126165f26612966a762c65e8bd0325b1589313bc39482ba15397b26f3e",
+      "actual_sha256": "fcd340126165f26612966a762c65e8bd0325b1589313bc39482ba15397b26f3e",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/imageformats/qtgad.dll",
+      "inventoried_sha256": "78a6c29abbf1394eba62a75f27c9aedcfd5a6dc43697e8ae3b957d3ca227ce63",
+      "actual_sha256": "78a6c29abbf1394eba62a75f27c9aedcfd5a6dc43697e8ae3b957d3ca227ce63",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/imageformats/qtiff.dll",
+      "inventoried_sha256": "ed03ba79ddba6954ec3243db0129c52d98e13793dfa155c87ae4b1d0544d5dd5",
+      "actual_sha256": "ed03ba79ddba6954ec3243db0129c52d98e13793dfa155c87ae4b1d0544d5dd5",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/imageformats/qtiffd.dll",
+      "inventoried_sha256": "76d7651b0f68d706d5bbe47e7ec2239e9e069ba93204ce0d6132cf7e0ed99d63",
+      "actual_sha256": "76d7651b0f68d706d5bbe47e7ec2239e9e069ba93204ce0d6132cf7e0ed99d63",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/imageformats/qwbmp.dll",
+      "inventoried_sha256": "229abae82e7f02699a2de1b90c5c37606a374a78bd74d751b8a517d766c7eeec",
+      "actual_sha256": "229abae82e7f02699a2de1b90c5c37606a374a78bd74d751b8a517d766c7eeec",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/imageformats/qwbmpd.dll",
+      "inventoried_sha256": "9268ca3a5c0fff1c87a918b6c04b813add06b2a0b31a5af4df7ecec7093f5904",
+      "actual_sha256": "9268ca3a5c0fff1c87a918b6c04b813add06b2a0b31a5af4df7ecec7093f5904",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/imageformats/qwebp.dll",
+      "inventoried_sha256": "f69e133186dd2cb83c1efc80fcf96750898250338f80c4c132c9fcce5021f6e2",
+      "actual_sha256": "f69e133186dd2cb83c1efc80fcf96750898250338f80c4c132c9fcce5021f6e2",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/imageformats/qwebpd.dll",
+      "inventoried_sha256": "eebfeeec77c6a262fb7cb9ef843bed1eb90983752c1b6a5e45cfdd613b09f2f9",
+      "actual_sha256": "eebfeeec77c6a262fb7cb9ef843bed1eb90983752c1b6a5e45cfdd613b09f2f9",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/libEGL.dll",
+      "inventoried_sha256": "22d3e48d5c1af9d0e7fa2d6acb29f08d6d5c6e7d1e8b1bfe22d7651cbd6c2f7f",
+      "actual_sha256": "22d3e48d5c1af9d0e7fa2d6acb29f08d6d5c6e7d1e8b1bfe22d7651cbd6c2f7f",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/libGLESV2.dll",
+      "inventoried_sha256": "ea4d995f2ae2029f41365026a5bfe2f3aa5bfe7459194cd793d979c227b437c2",
+      "actual_sha256": "ea4d995f2ae2029f41365026a5bfe2f3aa5bfe7459194cd793d979c227b437c2",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/libavtfwupdater.dll",
+      "inventoried_sha256": "c87d1087dac258c55bcdfb1cdfaa40007e0bfd4250f41ebe4a8e9b3f9c3f9303",
+      "actual_sha256": "c87d1087dac258c55bcdfb1cdfaa40007e0bfd4250f41ebe4a8e9b3f9c3f9303",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/msvcp140.dll",
+      "inventoried_sha256": "2011f0798b569aa0640ca2957da6abb42a5cc08d58553c647f540674bcf2351b",
+      "actual_sha256": "2011f0798b569aa0640ca2957da6abb42a5cc08d58553c647f540674bcf2351b",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/opengl32sw.dll",
+      "inventoried_sha256": "1d8cbbd17b8a5777a98600e583220ccebec9ffa205c374261fea38e333b1b997",
+      "actual_sha256": "1d8cbbd17b8a5777a98600e583220ccebec9ffa205c374261fea38e333b1b997",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/platforms/qwindows.dll",
+      "inventoried_sha256": "f9bf40b0873a0721115e8420cd540f498a15431af1d2558cb1f6d1afeaa3f0cb",
+      "actual_sha256": "f9bf40b0873a0721115e8420cd540f498a15431af1d2558cb1f6d1afeaa3f0cb",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/platforms/qwindowsd.dll",
+      "inventoried_sha256": "0c9f0bb1abf1c1a0336d146a941eee9313402827c95393bd2b6fbbb9a85cc2a5",
+      "actual_sha256": "0c9f0bb1abf1c1a0336d146a941eee9313402827c95393bd2b6fbbb9a85cc2a5",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/styles/qwindowsvistastyle.dll",
+      "inventoried_sha256": "f4eb57a55f66c6d6f770aadf431b6b4fa98f20c4a71164078eddbd5042edbf9d",
+      "actual_sha256": "f4eb57a55f66c6d6f770aadf431b6b4fa98f20c4a71164078eddbd5042edbf9d",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/styles/qwindowsvistastyled.dll",
+      "inventoried_sha256": "646a6052433a2300f43c1af39a81dafe70cedc5ff1bef217659112be879124f1",
+      "actual_sha256": "646a6052433a2300f43c1af39a81dafe70cedc5ff1bef217659112be879124f1",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/vcruntime140.dll",
+      "inventoried_sha256": "1bda0eaf2514e4e72461dee082689a3270b3888cd104a9038147047947f5bb40",
+      "actual_sha256": "1bda0eaf2514e4e72461dee082689a3270b3888cd104a9038147047947f5bb40",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/mnt/d/gc575-re/vcruntime140_1.dll",
+      "inventoried_sha256": "b73ead451cd84e81fb8e0287aba3eda1dd3c4087219851e2fcfcb80028f97126",
+      "actual_sha256": "b73ead451cd84e81fb8e0287aba3eda1dd3c4087219851e2fcfcb80028f97126",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/home/dexmel/gc575-re/analysis/installed-host/RTICE_SDK_x64.dll",
+      "inventoried_sha256": "d9fb4935318664bd5fada38f3e705dcf97a4b7fbd581f27f3b70d7d28392c826",
+      "actual_sha256": "d9fb4935318664bd5fada38f3e705dcf97a4b7fbd581f27f3b70d7d28392c826",
+      "status": "duplicate_identity_already_searched"
+    },
+    {
+      "path": "/home/dexmel/gc575-re/analysis/installed-host/RTK_IO_x64.dll",
+      "inventoried_sha256": "b5c60027e04979106e37567bb35274c9ebeeb6f05c6e1037a6e58991d881a1c7",
+      "actual_sha256": "b5c60027e04979106e37567bb35274c9ebeeb6f05c6e1037a6e58991d881a1c7",
+      "status": "duplicate_identity_already_searched"
+    },
+    {
+      "path": "/home/dexmel/gc575-re/analysis/installed-host/StreamingCenter.exe",
+      "inventoried_sha256": "cadccc27d66f3350bc092e29bbad88582f4110e1edf87193342c183d3cb15cc1",
+      "actual_sha256": "cadccc27d66f3350bc092e29bbad88582f4110e1edf87193342c183d3cb15cc1",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/home/dexmel/gc575-re/analysis/installed-host/avtsdk.dll",
+      "inventoried_sha256": "fce2953c0ef9e1d35f180448d712c3d83ebaa01c404850ea65e6193071038dd0",
+      "actual_sha256": "fce2953c0ef9e1d35f180448d712c3d83ebaa01c404850ea65e6193071038dd0",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/home/dexmel/gc575-re/analysis/phase3/assist/AssistCentralPro.exe",
+      "inventoried_sha256": "96e7fdffdc710b5195677369fc414a75383d808d29dc8b6e9eba388ad06dbf73",
+      "actual_sha256": "96e7fdffdc710b5195677369fc414a75383d808d29dc8b6e9eba388ad06dbf73",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/home/dexmel/gc575-re/analysis/phase3/assist/AvtPluginLib.dll",
+      "inventoried_sha256": "96389f6d6673ff15eab73720fc82596d2b0e687b0c70034571009392a79bf958",
+      "actual_sha256": "96389f6d6673ff15eab73720fc82596d2b0e687b0c70034571009392a79bf958",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/home/dexmel/gc575-re/analysis/phase3/assist/RTICE_SDK_x64.dll",
+      "inventoried_sha256": "52f92038750eb434dab5a0c80b1da81f05e0c5640c8767072fc478bda9320fd3",
+      "actual_sha256": "52f92038750eb434dab5a0c80b1da81f05e0c5640c8767072fc478bda9320fd3",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/home/dexmel/gc575-re/analysis/phase3/assist/RTK_IO_x64.dll",
+      "inventoried_sha256": "b9697cc6307b9d8af974dbe857ec779d3a7a3dbf87d3f5a3f3b2b6eba3fbdab2",
+      "actual_sha256": "b9697cc6307b9d8af974dbe857ec779d3a7a3dbf87d3f5a3f3b2b6eba3fbdab2",
+      "status": "searched",
+      "matches": []
+    },
+    {
+      "path": "/home/dexmel/gc575-re/analysis/phase3/assist/avtsdk.dll",
+      "inventoried_sha256": "0b4109cbfe0f16d1cab30adaa4603ba02059c6ba06c8d2bdab64cd5865b1d9d4",
+      "actual_sha256": "0b4109cbfe0f16d1cab30adaa4603ba02059c6ba06c8d2bdab64cd5865b1d9d4",
+      "status": "searched",
+      "matches": []
+    }
+  ],
+  "limitations": [
+    "No match does not exclude generated, split, transformed or device-ROM constants.",
+    "A host literal match alone would not identify a device-side loader."
+  ],
+  "device_io_performed": false
+}

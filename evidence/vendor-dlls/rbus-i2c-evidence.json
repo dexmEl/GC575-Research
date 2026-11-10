@@ -1,0 +1,556 @@
+{
+  "schema": 1,
+  "date": "2026-11-08",
+  "scope": "offline static SDK reconstruction",
+  "device_operations_performed": 0,
+  "evidence_level": 2,
+  "binaries": [
+    {
+      "path": "/mnt/d/gc575-re/RTICE_SDK_x64.dll",
+      "sha256": "d9fb4935318664bd5fada38f3e705dcf97a4b7fbd581f27f3b70d7d28392c826",
+      "image_base": "0x180000000",
+      "architecture": "x64"
+    },
+    {
+      "path": "/mnt/d/gc575-re/RTK_IO_x64.dll",
+      "sha256": "b5c60027e04979106e37567bb35274c9ebeeb6f05c6e1037a6e58991d881a1c7",
+      "image_base": "0x6af00000",
+      "architecture": "x64"
+    },
+    {
+      "path": "/mnt/d/gc575-re/RTK_IO_x86.dll",
+      "sha256": "ff92321af82a24a107bc2f31fd05a1a455c02b9477cedab1f66b37d38c50c382",
+      "image_base": "0x6b340000",
+      "architecture": "x86"
+    }
+  ],
+  "functions": [
+    {
+      "name": "rtk_readRbus",
+      "x64_va": "0x6afc3090",
+      "x86_va": "0x6b414f10",
+      "signature": "uint32_t(uint32_t address,uint32_t *output)",
+      "abi": {
+        "x86": "cdecl",
+        "x64": "Windows x64"
+      },
+      "returns": {
+        "0": "host method success",
+        "2": "no global I/O instance",
+        "8": "method failure"
+      },
+      "risk": "unknown register side effects; live allowlist empty"
+    },
+    {
+      "name": "CIoInstance readWords",
+      "x64_va": "0x6afcd930",
+      "x86_va": "0x6b41cac0",
+      "parameters": [
+        "this",
+        "uint32 address",
+        "output",
+        "wordCount",
+        "mode"
+      ],
+      "output_order": "BE32 bytes converted to native words",
+      "chunk_words": 64,
+      "failure_sentinel": "0xdeaddead"
+    },
+    {
+      "name": "CIoInstance readBytes",
+      "x64_va": "0x6afd6e70",
+      "x86_va": "0x6b41bac0",
+      "parameters": [
+        "this",
+        "uint32 address",
+        "output",
+        "byteCount",
+        "mode"
+      ],
+      "hazard": "conditional 0x1801a7ec write/restore; see existing branch provenance"
+    },
+    {
+      "name": "CRosCmdV2 readBytes D0 serializer",
+      "x64_va": "0x6af3ba90",
+      "x86_va": "0x6b37d7b0",
+      "parameters": [
+        "this",
+        "address",
+        "output",
+        "byteCount",
+        "mode"
+      ]
+    },
+    {
+      "name": "address normalization",
+      "x64_va": "0x6af222b0",
+      "x86_va": "0x6b365770"
+    },
+    {
+      "name": "read gate",
+      "x64_va": "0x6af22f10",
+      "x86_va": "0x6b367640",
+      "limitation": "Must be firstly stop does not authorize any stop/halt/reset"
+    },
+    {
+      "name": "rtk_sendI2CATCommand",
+      "x64_va": "0x6afc3500",
+      "x86_va": "0x6b415370",
+      "ordinals": {
+        "x64": 23,
+        "x86": 21
+      },
+      "signature": "int32_t(uint32_t command,void *request,void *result,uint16_t requestLength,uint32_t service)",
+      "abi": {
+        "x86": "cdecl",
+        "x64": "Windows x64"
+      },
+      "absent_instance_return": 2
+    },
+    {
+      "name": "CIoInstance I2C AT wrapper",
+      "x64_va": "0x6afca740",
+      "x86_va": "0x6b4296a0",
+      "member_slots": {
+        "x64": "0x5f8",
+        "x86": "0x2fc"
+      },
+      "prefix": "command LE32",
+      "protocol_slots": {
+        "x64": "0x250",
+        "x86": "0x128"
+      }
+    },
+    {
+      "name": "RTD2801 I2C serializer",
+      "x64_va": "0x6af44290",
+      "x86_va": "0x6b38b420",
+      "packet_bytes": 150,
+      "behavior": "construct AT frame then zero pad or truncate first150",
+      "exchange_slots": {
+        "x64": "0x288",
+        "x86": "0x140"
+      }
+    },
+    {
+      "name": "RTD2801 I2C exchange",
+      "x64_va": "0x6af47150",
+      "x86_va": "0x6b38ec30",
+      "receive_slots": {
+        "x64": "port+0x40",
+        "x86": "port+0x20"
+      }
+    },
+    {
+      "name": "protocol extraRead helper",
+      "x64_va": "0x6af23590",
+      "x86_va": "0x6b366760"
+    },
+    {
+      "name": "UVC extraRead",
+      "x64_va": "0x6af1ca40",
+      "x86_va": "0x6b35f570"
+    },
+    {
+      "name": "UVC extraRead backend",
+      "x64_va": "0x6afa2d50",
+      "x86_va": "0x6b3f0530",
+      "thunk_va": {
+        "x64": "0x6afa1a20",
+        "x86": "0x6b3eee20"
+      },
+      "ks": {
+        "node": 3,
+        "selector": 3,
+        "flags": "0x10000001",
+        "capacity": 1024
+      },
+      "backend_failure_return": -2
+    },
+    {
+      "name": "AT_System_Get_ExternalMCU_cmd",
+      "x64_va": "0x1800028e0",
+      "command": 27,
+      "signature": "int(uint8 p1,uint8 p2,uint16 sendLength,void *sendData,uint16 expectedLength,void *output)",
+      "payload": "p1 u8,p2 u8,sendLength LE16,sendData,expectedLength LE16",
+      "sender": "rtk_sendI2CATCommand",
+      "service": 1,
+      "max_nontruncated_send_bytes": 135,
+      "response": "SDK result byte1 -> expectedLength bytes at+1; byte0 ->error15; other status does not copy",
+      "category": "E",
+      "read_only_confirmed": false
+    },
+    {
+      "name": "AT_System_Send_ExternalMCU_cmd",
+      "x64_va": "0x180002a10",
+      "command": 28,
+      "signature": "int(uint8 p1,uint8 p2,uint16 sendLength,void *sendData)",
+      "payload": "p1 u8,p2 u8,sendLength LE16,sendData",
+      "sender": "rtk_sendI2CATCommand",
+      "service": 1,
+      "max_nontruncated_send_bytes": 137,
+      "category": "E",
+      "read_only_confirmed": false
+    },
+    {
+      "name": "AT_EDID_DDC_Get_RX_table",
+      "x64_va": "0x180004d30",
+      "command": 88,
+      "signature": "int(uint16 totalLength,void *output)",
+      "sender": "rtk_sendATCommand",
+      "service": 1,
+      "payload": "isLast u8,00,chunkLength LE16,totalLength LE16",
+      "chunk_bytes": 128,
+      "required_length_multiple": 32,
+      "explicit_offset_present": false,
+      "category": "E",
+      "read_only_confirmed": false
+    }
+  ],
+  "sources": [
+    {
+      "path": "phase3/analysis/rtk-x64-exports.c",
+      "sha256": "1481c4ceff71c1bc39c62f3e80b7d19baceacfc15acf3fdc4a1e737c4294f705"
+    },
+    {
+      "path": "phase3/analysis/rbus-i2c-focused-x64.c",
+      "sha256": "22be775c824d3dea3635654b3d748cd1c727c782d94023697764775f46305c0d"
+    },
+    {
+      "path": "phase3/analysis/i2c-internal-x64.c",
+      "sha256": "0b1204756c1558544bd4c88b74fa04adb6635f714b7834b125e7627833608813"
+    },
+    {
+      "path": "phase3/analysis/i2c-internal-x86.c",
+      "sha256": "ade1f4806b25b51623097210019a975ee8fbb23908cdda7e09a66d2206cfac6a"
+    },
+    {
+      "path": "phase3/analysis/i2c-exchange-x64.c",
+      "sha256": "dd403628482930398c5c18065c237e2ec8ef10b4dd7875d410754e53a32bb295"
+    },
+    {
+      "path": "phase3/analysis/i2c-exchange-x86.c",
+      "sha256": "1c5d1674c7fe09d9614baa7537df325690f121fdef5bc58875c74acc1b36571c"
+    },
+    {
+      "path": "phase3/analysis/i2c-port-x64.c",
+      "sha256": "fcfb4bf61c0ded5fd20851cc905afaee756b3214a252f6506edfd72cc2f6dc6b"
+    },
+    {
+      "path": "phase3/analysis/i2c-port-x86.c",
+      "sha256": "63a90b92f0434da5757ee4ac1009c4a4b2952440ffebe997b1667ee57d26d95b"
+    },
+    {
+      "path": "phase3/analysis/i2c-ks-x64.c",
+      "sha256": "410ef6decf9636d95602334d87070d932d7ea615c37ab03b62fb9a9a264753e4"
+    },
+    {
+      "path": "phase3/analysis/i2c-ks-x86.c",
+      "sha256": "5f068f7b6f271322d6462800689691a9e8885e00075e9ee62c981d4b5f94aa7c"
+    },
+    {
+      "path": "research/evidence/phase2-static/ks-callers-x86.c",
+      "sha256": "2ddb67a32fb406b482ff29dfcd17c79ca6ac95b4413f12c0f999b42c16b24245"
+    },
+    {
+      "path": "research/evidence/phase2-static/ks-boundary-x64.c",
+      "sha256": "50268c9cdce0b2048e0316cd07a2012a37e99fee58a2ada35f596fe3a631b2f1"
+    },
+    {
+      "path": "research/evidence/rtice-x64.c",
+      "sha256": "087f9a4a206b8ed1794c065b2ad94338424ecdfa192952bbe47874d6cc9f9856"
+    },
+    {
+      "path": "research/RBUS_BRANCH_PROVENANCE.md",
+      "sha256": "2f0e5372da3c512376a5fdfe16563eb8da4c2f70476f1760dbd33e89ec05910c"
+    }
+  ],
+  "vtables": [
+    {
+      "binary": "RTK_IO_x64.dll",
+      "sha256": "b5c60027e04979106e37567bb35274c9ebeeb6f05c6e1037a6e58991d881a1c7",
+      "vtable": "0x6b3e32a0",
+      "slot": "0x5f8",
+      "va": "0x6b3e3898",
+      "file_offset": "0x4e1e98",
+      "raw_hex": "40a7fc6a00000000",
+      "target": "0x6afca740"
+    },
+    {
+      "binary": "RTK_IO_x64.dll",
+      "sha256": "b5c60027e04979106e37567bb35274c9ebeeb6f05c6e1037a6e58991d881a1c7",
+      "vtable": "0x6b3e32a0",
+      "slot": "0x5e8",
+      "va": "0x6b3e3888",
+      "file_offset": "0x4e1e88",
+      "raw_hex": "e09ffc6a00000000",
+      "target": "0x6afc9fe0"
+    },
+    {
+      "binary": "RTK_IO_x64.dll",
+      "sha256": "b5c60027e04979106e37567bb35274c9ebeeb6f05c6e1037a6e58991d881a1c7",
+      "vtable": "0x6b3e32a0",
+      "slot": "0x308",
+      "va": "0x6b3e35a8",
+      "file_offset": "0x4e1ba8",
+      "raw_hex": "30d9fc6a00000000",
+      "target": "0x6afcd930"
+    },
+    {
+      "binary": "RTK_IO_x64.dll",
+      "sha256": "b5c60027e04979106e37567bb35274c9ebeeb6f05c6e1037a6e58991d881a1c7",
+      "vtable": "0x6b3e32a0",
+      "slot": "0x310",
+      "va": "0x6b3e35b0",
+      "file_offset": "0x4e1bb0",
+      "raw_hex": "706efd6a00000000",
+      "target": "0x6afd6e70"
+    },
+    {
+      "binary": "RTK_IO_x64.dll",
+      "sha256": "b5c60027e04979106e37567bb35274c9ebeeb6f05c6e1037a6e58991d881a1c7",
+      "vtable": "0x6b3e9ef0",
+      "slot": "0x250",
+      "va": "0x6b3ea140",
+      "file_offset": "0x4e8740",
+      "raw_hex": "9042f46a00000000",
+      "target": "0x6af44290"
+    },
+    {
+      "binary": "RTK_IO_x64.dll",
+      "sha256": "b5c60027e04979106e37567bb35274c9ebeeb6f05c6e1037a6e58991d881a1c7",
+      "vtable": "0x6b3e9ef0",
+      "slot": "0x248",
+      "va": "0x6b3ea138",
+      "file_offset": "0x4e8738",
+      "raw_hex": "d03cf46a00000000",
+      "target": "0x6af43cd0"
+    },
+    {
+      "binary": "RTK_IO_x64.dll",
+      "sha256": "b5c60027e04979106e37567bb35274c9ebeeb6f05c6e1037a6e58991d881a1c7",
+      "vtable": "0x6b3e9ef0",
+      "slot": "0x280",
+      "va": "0x6b3ea170",
+      "file_offset": "0x4e8770",
+      "raw_hex": "c09cf46a00000000",
+      "target": "0x6af49cc0"
+    },
+    {
+      "binary": "RTK_IO_x64.dll",
+      "sha256": "b5c60027e04979106e37567bb35274c9ebeeb6f05c6e1037a6e58991d881a1c7",
+      "vtable": "0x6b3e9ef0",
+      "slot": "0x288",
+      "va": "0x6b3ea178",
+      "file_offset": "0x4e8778",
+      "raw_hex": "5071f46a00000000",
+      "target": "0x6af47150"
+    },
+    {
+      "binary": "RTK_IO_x64.dll",
+      "sha256": "b5c60027e04979106e37567bb35274c9ebeeb6f05c6e1037a6e58991d881a1c7",
+      "vtable": "0x6b3e8e00",
+      "slot": "0x38",
+      "va": "0x6b3e8e38",
+      "file_offset": "0x4e7438",
+      "raw_hex": "f0c4f16a00000000",
+      "target": "0x6af1c4f0"
+    },
+    {
+      "binary": "RTK_IO_x64.dll",
+      "sha256": "b5c60027e04979106e37567bb35274c9ebeeb6f05c6e1037a6e58991d881a1c7",
+      "vtable": "0x6b3e8e00",
+      "slot": "0x40",
+      "va": "0x6b3e8e40",
+      "file_offset": "0x4e7440",
+      "raw_hex": "40caf16a00000000",
+      "target": "0x6af1ca40"
+    },
+    {
+      "binary": "RTK_IO_x64.dll",
+      "sha256": "b5c60027e04979106e37567bb35274c9ebeeb6f05c6e1037a6e58991d881a1c7",
+      "vtable": "0x6b3e8e00",
+      "slot": "0x50",
+      "va": "0x6b3e8e50",
+      "file_offset": "0x4e7450",
+      "raw_hex": "a0d4f16a00000000",
+      "target": "0x6af1d4a0"
+    },
+    {
+      "binary": "RTK_IO_x86.dll",
+      "sha256": "ff92321af82a24a107bc2f31fd05a1a455c02b9477cedab1f66b37d38c50c382",
+      "vtable": "0x6b7fc108",
+      "slot": "0x2fc",
+      "va": "0x6b7fc404",
+      "file_offset": "0x4ba004",
+      "raw_hex": "a096426b",
+      "target": "0x6b4296a0"
+    },
+    {
+      "binary": "RTK_IO_x86.dll",
+      "sha256": "ff92321af82a24a107bc2f31fd05a1a455c02b9477cedab1f66b37d38c50c382",
+      "vtable": "0x6b7fc108",
+      "slot": "0x2f4",
+      "va": "0x6b7fc3fc",
+      "file_offset": "0x4b9ffc",
+      "raw_hex": "a08c426b",
+      "target": "0x6b428ca0"
+    },
+    {
+      "binary": "RTK_IO_x86.dll",
+      "sha256": "ff92321af82a24a107bc2f31fd05a1a455c02b9477cedab1f66b37d38c50c382",
+      "vtable": "0x6b7fc108",
+      "slot": "0x184",
+      "va": "0x6b7fc28c",
+      "file_offset": "0x4b9e8c",
+      "raw_hex": "c0ca416b",
+      "target": "0x6b41cac0"
+    },
+    {
+      "binary": "RTK_IO_x86.dll",
+      "sha256": "ff92321af82a24a107bc2f31fd05a1a455c02b9477cedab1f66b37d38c50c382",
+      "vtable": "0x6b7fc108",
+      "slot": "0x188",
+      "va": "0x6b7fc290",
+      "file_offset": "0x4b9e90",
+      "raw_hex": "c0ba416b",
+      "target": "0x6b41bac0"
+    },
+    {
+      "binary": "RTK_IO_x86.dll",
+      "sha256": "ff92321af82a24a107bc2f31fd05a1a455c02b9477cedab1f66b37d38c50c382",
+      "vtable": "0x6b7ffd88",
+      "slot": "0x128",
+      "va": "0x6b7ffeb0",
+      "file_offset": "0x4bdab0",
+      "raw_hex": "20b4386b",
+      "target": "0x6b38b420"
+    },
+    {
+      "binary": "RTK_IO_x86.dll",
+      "sha256": "ff92321af82a24a107bc2f31fd05a1a455c02b9477cedab1f66b37d38c50c382",
+      "vtable": "0x6b7ffd88",
+      "slot": "0x124",
+      "va": "0x6b7ffeac",
+      "file_offset": "0x4bdaac",
+      "raw_hex": "f0b1386b",
+      "target": "0x6b38b1f0"
+    },
+    {
+      "binary": "RTK_IO_x86.dll",
+      "sha256": "ff92321af82a24a107bc2f31fd05a1a455c02b9477cedab1f66b37d38c50c382",
+      "vtable": "0x6b7ffd88",
+      "slot": "0x13c",
+      "va": "0x6b7ffec4",
+      "file_offset": "0x4bdac4",
+      "raw_hex": "701e396b",
+      "target": "0x6b391e70"
+    },
+    {
+      "binary": "RTK_IO_x86.dll",
+      "sha256": "ff92321af82a24a107bc2f31fd05a1a455c02b9477cedab1f66b37d38c50c382",
+      "vtable": "0x6b7ffd88",
+      "slot": "0x140",
+      "va": "0x6b7ffec8",
+      "file_offset": "0x4bdac8",
+      "raw_hex": "30ec386b",
+      "target": "0x6b38ec30"
+    },
+    {
+      "binary": "RTK_IO_x86.dll",
+      "sha256": "ff92321af82a24a107bc2f31fd05a1a455c02b9477cedab1f66b37d38c50c382",
+      "vtable": "0x6b7ff448",
+      "slot": "0x1c",
+      "va": "0x6b7ff464",
+      "file_offset": "0x4bd064",
+      "raw_hex": "40f0356b",
+      "target": "0x6b35f040"
+    },
+    {
+      "binary": "RTK_IO_x86.dll",
+      "sha256": "ff92321af82a24a107bc2f31fd05a1a455c02b9477cedab1f66b37d38c50c382",
+      "vtable": "0x6b7ff448",
+      "slot": "0x20",
+      "va": "0x6b7ff468",
+      "file_offset": "0x4bd068",
+      "raw_hex": "70f5356b",
+      "target": "0x6b35f570"
+    },
+    {
+      "binary": "RTK_IO_x86.dll",
+      "sha256": "ff92321af82a24a107bc2f31fd05a1a455c02b9477cedab1f66b37d38c50c382",
+      "vtable": "0x6b7ff448",
+      "slot": "0x28",
+      "va": "0x6b7ff470",
+      "file_offset": "0x4bd070",
+      "raw_hex": "b0ff356b",
+      "target": "0x6b35ffb0"
+    }
+  ],
+  "guid_audit": [
+    {
+      "binary": "RTK_IO_x64.dll",
+      "sha256": "b5c60027e04979106e37567bb35274c9ebeeb6f05c6e1037a6e58991d881a1c7",
+      "va": "0x6b3d8e20",
+      "file_offset": "0x4d7420",
+      "bytes_hex": "c7731096f749f244ab42e940405940c2",
+      "guid": "961073c7-49f7-44f2-ab42-e940405940c2"
+    },
+    {
+      "binary": "RTK_IO_x86.dll",
+      "sha256": "ff92321af82a24a107bc2f31fd05a1a455c02b9477cedab1f66b37d38c50c382",
+      "va": "0x6b7f6e88",
+      "file_offset": "0x4b4a88",
+      "bytes_hex": "c7731096f749f244ab42e940405940c2",
+      "guid": "961073c7-49f7-44f2-ab42-e940405940c2"
+    }
+  ],
+  "rbus": {
+    "request": "D0 05 normalized_address_BE32 01 LRC8",
+    "checksum": "negative additive byte sum modulo256",
+    "response": "normal marker D0; short N+3 or extended N+4 envelope; raw BE32 body",
+    "strict_response_body_bytes": 4,
+    "AT_prefix_removed": false,
+    "live_allowlist": [],
+    "hardware_accepted": false,
+    "known_safe_register": null,
+    "host_error_states": {
+      "0x0a": "timeout",
+      "0x0c": "marker mismatch",
+      "0x0f": "complement-marker kernel error",
+      "0x10": "bad LRC"
+    }
+  },
+  "i2c": {
+    "packet_bytes": 150,
+    "lossful_truncation_refused_by_offline_constructor": true,
+    "KS_node": 3,
+    "transmit": [
+      {
+        "selector": 2,
+        "operation": "SET",
+        "data": "LE16 150"
+      },
+      {
+        "selector": 1,
+        "operation": "SET",
+        "data": "padded150-byte frame"
+      }
+    ],
+    "receive": {
+      "selector": 3,
+      "operation": "GET",
+      "capacity": 1024
+    },
+    "private_guid": "961073c7-49f7-44f2-ab42-e940405940c2",
+    "hardware_accepted": false,
+    "p1_p2_semantics": "unknown"
+  },
+  "limitations": [
+    "No captured GC575 D0 or I2C command response",
+    "Firmware receiver/side effects remain unidentified",
+    "Cold configured SDK branch proof does not establish warm/live state",
+    "No safe register nominated",
+    "x86 preexisting function bodies may have incomplete disjoint coverage"
+  ]
+}

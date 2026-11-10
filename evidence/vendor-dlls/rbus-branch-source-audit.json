@@ -1,0 +1,126 @@
+{
+  "scope": "static_host_branch_provenance_only; no hardware execution",
+  "installed_rtk_sha256": "b5c60027e04979106e37567bb35274c9ebeeb6f05c6e1037a6e58991d881a1c7",
+  "private_native_wsl_project": "/home/dexmel/gc575-re/analysis/coordination-20261108/ghidra/rbus-installed64.gpr",
+  "ci_instance_vtable": "0x6b3e32a0",
+  "slots": {
+    "0x30": "0x6afd9440",
+    "0x58": "0x6afcfb20",
+    "0x68": "0x6afcfb90",
+    "0x78": "0x6afcfc40",
+    "0x308": "0x6afcd930",
+    "0x310": "0x6afd6e70"
+  },
+  "rtice_initialize_iat": {
+    "0x1800272d8": {
+      "dll": "RTK_IO_x64.dll",
+      "name": "rtk_initialize",
+      "ordinal": null,
+      "iat_va": "0x1800272d8"
+    },
+    "0x1800270b0": {
+      "dll": "KERNEL32.dll",
+      "name": "SetUnhandledExceptionFilter",
+      "ordinal": null,
+      "iat_va": "0x1800270b0"
+    }
+  },
+  "strings": {
+    "0x6b2883f6": "connect",
+    "0x6b2883fe": "chip_status",
+    "0x6b2887f7": ":/json/io.json",
+    "0x6b287db0": "fsdfjwovpxodce"
+  },
+  "config_vtable": "0x6b3eda60",
+  "config_slots": {
+    "0x0": "0x6b1bec90",
+    "0x8": "0x6b1bec60",
+    "0x10": "0x6af069e0",
+    "0x18": "0x0",
+    "0x20": "0x0",
+    "0x28": "0x6b3dbb70"
+  },
+  "configuration_key_refs": {
+    "ros_protocol": {
+      "string_va": "0x6b27009a",
+      "candidate_rip_lea_refs": [
+        "0x6af01f08"
+      ],
+      "pdata_functions": [
+        "0x6af01e70"
+      ]
+    },
+    "u2r_protocol": {
+      "string_va": "0x6b27012f",
+      "candidate_rip_lea_refs": [
+        "0x6af02034"
+      ],
+      "pdata_functions": [
+        "0x6af01e70"
+      ]
+    }
+  },
+  "resource_path": "D:\\gc575-re\\research\\evidence\\phase2-static\\resources\\RTK_IO_x64-00387068.json",
+  "resource_sha256": "4b279415fea46bb9f3687730d809fcc71da8583f00ce72b7ec2045f32ca4c93f",
+  "chip_status": [
+    {
+      "Status_BRIDGE_RX_U2R": "-1",
+      "Status_BRIDGE_StandBy_U2R": "-1",
+      "Status_BRIDGE_TX_U2R": "-1",
+      "bootcode_protocol": "21",
+      "chip_name": "h5x",
+      "console_protocol": "23",
+      "fpga_protocol": "3",
+      "hif_protocol": "15",
+      "hw_protect": "0",
+      "i2c_fpga_protocl": "3",
+      "id": "45",
+      "qc_protocol": "13",
+      "romcode_protocol": "12",
+      "ros_protocol": "14",
+      "standby_protocol": "24",
+      "standby_u2r_protocol": "29",
+      "u2r_protocol": "25"
+    },
+    {
+      "Status_BRIDGE_RX_U2R": "-1",
+      "Status_BRIDGE_StandBy_U2R": "-1",
+      "Status_BRIDGE_TX_U2R": "-1",
+      "bootcode_protocol": "-1",
+      "chip_name": "dante",
+      "console_protocol": "-1",
+      "fpga_protocol": "-1",
+      "hif_protocol": "-1",
+      "hw_protect": "-1",
+      "i2c_fpga_protocl": "-1",
+      "id": "54",
+      "qc_protocol": "-1",
+      "romcode_protocol": "16",
+      "ros_protocol": "36",
+      "standby_protocol": "24",
+      "standby_u2r_protocol": "29",
+      "u2r_protocol": "25"
+    }
+  ],
+  "resolver_mode0": {
+    "jump_table_va": "0x6b27041c",
+    "target_va": "0x6af0647f",
+    "instruction_bytes": "4489fde949ffffff",
+    "decoded": "MOV EBP,R15D; JMP 0x6af063d0",
+    "r15d_source": "0x6af06314 MOV R15D,[RBX+0x50]"
+  },
+  "field_provenance": {
+    "instance+0x68": "SDK chip selector; direct setter 0x6afcfb20; initialized to literal 54 by cold rtk_initialize path",
+    "instance+0x50": "selected protocol factory ID from configuration; not the USB/UVC connection type",
+    "instance+0x4c": "connection type; rtk_setUVCExtension sets 6",
+    "instance+0x40": "configuration chip_status index/mode; rtk_setUVCExtension sets 0",
+    "instance+0x224": "constructor clears byte; runtime later writes not exhaustively classified"
+  },
+  "conclusion": "The specific chip45/protocol25 workaround is excluded for an instance still carrying cold-default SDK chip selector54; mode0/connection6 maps to protocol36. This is conditional static path evidence, not a live instance-state observation or proof that arbitrary RBUS reads are safe.",
+  "remaining": [
+    "later/reused-instance state",
+    "other initialization side effects",
+    "normal-mode RBUS acceptance and firmware handler",
+    "read-to-clear effects and a validated target register"
+  ]
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "file": "GC575_MCU_24042616_cc61.bin",
+    "bytes": 13956,
+    "sha256": "55f722ee45fcf26edfd54a3e66e4325153bbdf5906865869b753ab134ed7258d",
+    "initial_sp": "0x20001628",
+    "reset_vector": "0x1d1",
+    "analysis_base": "0x0",
+    "architecture_evidence": "Cortex-M vector/code consistency; not main SoC ISA"
+  },
+  {
+    "file": "6K77xx_AverMedia_GC575_20240627v17_0x00232DB3_V0x17.bin",
+    "bytes": 30072,
+    "sha256": "278b43f547f9265b7969d647604ec6fcdde9063247a47f8952db9c279a56b30e",
+    "initial_sp": "0x20001a00",
+    "reset_vector": "0xd5",
+    "analysis_base": "0x0",
+    "architecture_evidence": "Cortex-M vector/code consistency; not main SoC ISA"
+  }
+]

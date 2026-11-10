@@ -37,3 +37,5 @@ Additional unchanged static evidence:
 Historical paths in retained evidence are provenance strings, not bundled dependencies. No firmware image is included. Source and binary identities remain distinct from hardware execution evidence.
 
 Recovered historical descriptor experiments are under `descriptor-experiments/`; `provenance.json` identifies every copied source and its hash. Read `08-DESCRIPTOR-EXPERIMENTS.md` at the export root for the distinction between descriptor exposure, negotiated rate and measured distinct-frame delivery. No raw private session history is included.
+
+Firmware reverse-engineering evidence is under `firmware/`, including original section inventories, exact auxiliary instruction/xref exports and rescue structural records. Vendor-library excerpts are under `vendor-dlls/`. `re-export-provenance.json` maps each unchanged copy to its original source path and SHA-256. The auxiliary source binaries are identified in `firmware/auxiliary-identities.json` and are not bundled. Recorded validation results describe their original run; no new Ghidra analysis was performed for packaging.
