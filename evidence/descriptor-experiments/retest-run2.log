@@ -1,0 +1,43 @@
+DirectShow video capture devices:
+  [0] Live Gamer 4K 2.1-Video
+      \\?\usb#vid_07ca&pid_0575&mi_00#9&29ceb1d2&1&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+  [1] NDI Webcam Video 1
+      \\?\root#media#0002#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\vidsource0
+  [2] NDI Webcam Video 2
+      \\?\root#media#0002#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\vidsource1
+  [3] NDI Webcam Video 3
+      \\?\root#media#0002#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\vidsource2
+  [4] NDI Webcam Video 4
+      \\?\root#media#0002#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\vidsource3
+  [5] OBS Virtual Camera
+      
+  [6] Streaming Center Virtual Camera
+      
+DirectShow output pin: Capture [capture]
+  YUY2 1280x720 default=60.000 FPS range=29.970..60.000 FPS
+  YUY2 1280x720 default=60.000 FPS range=29.970..60.000 FPS
+  YUY2 640x480 default=60.000 FPS range=30.000..60.000 FPS
+  YUY2 640x480 default=60.000 FPS range=30.000..60.000 FPS
+  YUY2 720x480 default=60.000 FPS range=29.970..60.000 FPS
+  YUY2 720x480 default=60.000 FPS range=29.970..60.000 FPS
+  YUY2 720x576 default=50.000 FPS range=29.970..50.000 FPS
+  YUY2 720x576 default=50.000 FPS range=29.970..50.000 FPS
+  YUY2 1280x800 default=60.000 FPS range=59.940..60.000 FPS
+  YUY2 1280x800 default=60.000 FPS range=59.940..60.000 FPS
+  YUY2 1920x1080 default=60.000 FPS range=29.970..240.004 FPS
+  YUY2 1920x1080 default=60.000 FPS range=29.970..240.004 FPS
+  YUY2 1920x1200 default=60.000 FPS range=60.000..60.000 FPS
+  YUY2 1920x1200 default=60.000 FPS range=60.000..60.000 FPS
+  YUY2 2560x1080 default=60.000 FPS range=30.000..120.000 FPS
+  YUY2 2560x1080 default=60.000 FPS range=30.000..120.000 FPS
+  YUY2 2560x1440 default=60.000 FPS range=29.970..60.000 FPS
+  YUY2 2560x1440 default=60.000 FPS range=29.970..60.000 FPS
+  YUY2 3440x1440 default=60.000 FPS range=60.000..60.000 FPS
+  YUY2 3440x1440 default=60.000 FPS range=60.000..60.000 FPS
+  YUY2 3840x2160 default=50.000 FPS range=29.970..50.000 FPS
+  YUY2 3840x2160 default=50.000 FPS range=29.970..50.000 FPS
+Configured pin media type: YUY2 1920x1080 @ 240.004 FPS
+DirectShow allocator: buffers=10 bytes=4147200 align=1 prefix=0
+Connected sink media type: YUY2 1920x1080 @ 240.004 FPS
+Graph event: 13 parameter=0
+Native frames saved: 2838

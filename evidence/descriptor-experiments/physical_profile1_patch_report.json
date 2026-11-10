@@ -1,0 +1,111 @@
+{
+  "source": "D:\\VYSE\\VYSE\\VyseAI\\GC575_Test\\artifacts\\gc575_yuy2_1080p240_20261104\\physical-before-USB_DT_SSP_01.bin",
+  "output": "D:\\VYSE\\VYSE\\VyseAI\\GC575_Test\\artifacts\\gc575_yuy2_1080p240_20261104\\USB_DT_SSP_01_YUY2_1080p240.bin",
+  "source_sha256": "fdabb0300f01b52be069ef2df4245126b30379ab5a0073d835cceafd981a16a0",
+  "output_sha256": "35774489dee4ca201c0e574ecbd8e21d262984ab7fdcaebf1d5dbdd198445c76",
+  "frame_before": {
+    "entry_table_offset": 80,
+    "offset": 1981,
+    "offset_hex": "0x7bd",
+    "length": 50,
+    "format": {
+      "format_offset": 1760,
+      "index": 1,
+      "kind": "uncompressed",
+      "guid_hex": "5955593200001000800000aa00389b71",
+      "fourcc": "YUY2",
+      "bits_per_pixel": 16
+    },
+    "frame_index": 6,
+    "width": 1920,
+    "height": 1080,
+    "min_bit_rate": 994332671,
+    "max_bit_rate": 3981312000,
+    "max_video_frame_buffer_size": 4147200,
+    "default_interval_100ns": 166666,
+    "interval_type": 6,
+    "intervals_100ns": [
+      83333,
+      166666,
+      166833,
+      200000,
+      333333,
+      333667
+    ],
+    "raw_hex": "322405060080073804ff4f443b00004eed00483f000a8b020006854501000a8b0200b18b0200400d03001516050063170500"
+  },
+  "frame_after": {
+    "entry_table_offset": 80,
+    "offset": 1981,
+    "offset_hex": "0x7bd",
+    "length": 50,
+    "format": {
+      "format_offset": 1760,
+      "index": 1,
+      "kind": "uncompressed",
+      "guid_hex": "5955593200001000800000aa00389b71",
+      "fourcc": "YUY2",
+      "bits_per_pixel": 16
+    },
+    "frame_index": 6,
+    "width": 1920,
+    "height": 1080,
+    "min_bit_rate": 994332671,
+    "max_bit_rate": 3981312000,
+    "max_video_frame_buffer_size": 4147200,
+    "default_interval_100ns": 166666,
+    "interval_type": 6,
+    "intervals_100ns": [
+      41666,
+      166666,
+      166833,
+      200000,
+      333333,
+      333667
+    ],
+    "raw_hex": "322405060080073804ff4f443b00004eed00483f000a8b020006c2a200000a8b0200b18b0200400d03001516050063170500"
+  },
+  "interval_offset": 2007,
+  "interval_offset_hex": "0x7d7",
+  "checksum_before": 198,
+  "checksum_after": 45,
+  "byte_changes": [
+    {
+      "offset": 9,
+      "offset_hex": "0x9",
+      "before": 198,
+      "after": 45
+    },
+    {
+      "offset": 2007,
+      "offset_hex": "0x7d7",
+      "before": 133,
+      "after": 194
+    },
+    {
+      "offset": 2008,
+      "offset_hex": "0x7d8",
+      "before": 69,
+      "after": 162
+    },
+    {
+      "offset": 2009,
+      "offset_hex": "0x7d9",
+      "before": 1,
+      "after": 0
+    }
+  ],
+  "verification": {
+    "source_checksum_valid": true,
+    "output_checksum_valid": true,
+    "all_other_bytes_identical": true,
+    "mjpegs_identical": true,
+    "physical_device_written": false
+  },
+  "bit_rate_metadata": {
+    "unchanged": true,
+    "payload_bits_per_second_at_nominal_240": 7962624000,
+    "u32_maximum": 4294967295,
+    "note": "The requested payload bit rate exceeds the UVC 32-bit bit-rate field. The minimum interval edit preserves the vendor field instead of wrapping or inventing a value. Actual operation remains untested."
+  }
+}

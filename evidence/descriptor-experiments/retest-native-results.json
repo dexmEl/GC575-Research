@@ -1,0 +1,165 @@
+{
+  "format": "1920x1080 YUY2",
+  "configured_fps": 240.003840061441,
+  "user_change": "User set monitor and capture to 240 Hz before this retest.",
+  "method": "Same zero-copy custom native DirectShow sink as the prior test. Reads 9 luma samples per barcode cell across 3 scanlines; records every callback in preallocated memory. No full frame copies, renderer, frame-rate converter, or per-frame disk writes. Excludes first 2 seconds and measures callbacks from 2 through 12 seconds. PC QPC timing corroborated by IMediaSample timestamps.",
+  "runs": [
+    {
+      "run": "native_run1",
+      "measurement_window_seconds": [
+        2,
+        12
+      ],
+      "received_frames": 2212,
+      "valid_barcode_frames": 2212,
+      "invalid_barcode_frames": 0,
+      "unique_counter_ids": 1933,
+      "first_counter": 167136,
+      "last_counter": 169536,
+      "consecutive_repeated_counter_ids": 279,
+      "skip_events": 459,
+      "skipped_counter_ids": 468,
+      "backward_counter_transitions": 0,
+      "counter_delta_histogram": {
+        "0": 279,
+        "1": 1473,
+        "2": 450,
+        "3": 9
+      },
+      "qpc_span_seconds": 9.9953187,
+      "sample_pts_span_seconds": 9.995310700003756,
+      "received_fps_wall_clock": 221.20355201880656,
+      "received_fps_sample_pts": 221.20372906458718,
+      "distinct_counter_ids_per_second": 193.29048507477805,
+      "source_counter_advance_per_second": 240.11240381960008,
+      "sample_bytes_histogram": {
+        "4147200": 2212
+      },
+      "discontinuity_flags_in_window": 0,
+      "callback_microseconds_median": 0.8,
+      "callback_microseconds_p99": 1.3,
+      "callback_microseconds_max": 2.1,
+      "total_frames_including_startup": 2874,
+      "total_callback_span_seconds": 13.0083574
+    },
+    {
+      "run": "native_run2",
+      "measurement_window_seconds": [
+        2,
+        12
+      ],
+      "received_frames": 2211,
+      "valid_barcode_frames": 2211,
+      "invalid_barcode_frames": 0,
+      "unique_counter_ids": 2199,
+      "first_counter": 170455,
+      "last_counter": 172854,
+      "consecutive_repeated_counter_ids": 12,
+      "skip_events": 200,
+      "skipped_counter_ids": 201,
+      "backward_counter_transitions": 0,
+      "counter_delta_histogram": {
+        "0": 12,
+        "1": 1998,
+        "2": 199,
+        "3": 1
+      },
+      "qpc_span_seconds": 9.9978622,
+      "sample_pts_span_seconds": 9.997852799999237,
+      "received_fps_wall_clock": 221.047255482277,
+      "received_fps_sample_pts": 221.04746331133907,
+      "distinct_counter_ids_per_second": 219.846998891423,
+      "source_counter_advance_per_second": 239.95129678822738,
+      "sample_bytes_histogram": {
+        "4147200": 2211
+      },
+      "discontinuity_flags_in_window": 0,
+      "callback_microseconds_median": 0.8,
+      "callback_microseconds_p99": 1.4,
+      "callback_microseconds_max": 15.6,
+      "total_frames_including_startup": 2838,
+      "total_callback_span_seconds": 12.8537563
+    },
+    {
+      "run": "native_run3",
+      "measurement_window_seconds": [
+        2,
+        12
+      ],
+      "received_frames": 2211,
+      "valid_barcode_frames": 0,
+      "invalid_barcode_frames": 2211,
+      "unique_counter_ids": 0,
+      "first_counter": null,
+      "last_counter": null,
+      "consecutive_repeated_counter_ids": 0,
+      "skip_events": 0,
+      "skipped_counter_ids": 0,
+      "backward_counter_transitions": 0,
+      "counter_delta_histogram": {},
+      "qpc_span_seconds": 9.994082500000001,
+      "sample_pts_span_seconds": 9.994067200001155,
+      "received_fps_wall_clock": 221.13085418296274,
+      "received_fps_sample_pts": 221.13119271398782,
+      "distinct_counter_ids_per_second": null,
+      "source_counter_advance_per_second": null,
+      "sample_bytes_histogram": {
+        "4147200": 2211
+      },
+      "discontinuity_flags_in_window": 0,
+      "callback_microseconds_median": 0.8,
+      "callback_microseconds_p99": 1.3,
+      "callback_microseconds_max": 3.7,
+      "total_frames_including_startup": 2874,
+      "total_callback_span_seconds": 13.0095234,
+      "excluded_from_counter_conclusion": "Counter moved outside the fixed barcode ROI. A follow-up full image showed browser chrome and a new barcode y position."
+    },
+    {
+      "run": "native_run4_windowed",
+      "measurement_window_seconds": [
+        2,
+        12
+      ],
+      "received_frames": 2199,
+      "valid_barcode_frames": 2199,
+      "invalid_barcode_frames": 0,
+      "unique_counter_ids": 884,
+      "first_counter": 189741,
+      "last_counter": 190646,
+      "consecutive_repeated_counter_ids": 1315,
+      "skip_events": 22,
+      "skipped_counter_ids": 22,
+      "backward_counter_transitions": 0,
+      "counter_delta_histogram": {
+        "0": 1315,
+        "1": 861,
+        "2": 22
+      },
+      "qpc_span_seconds": 9.997346799999999,
+      "sample_pts_span_seconds": 9.997340100002475,
+      "received_fps_wall_clock": 219.85833281286193,
+      "received_fps_sample_pts": 219.85848015708257,
+      "distinct_counter_ids_per_second": 88.32343397350186,
+      "source_counter_advance_per_second": 90.5240178324113,
+      "sample_bytes_histogram": {
+        "4147200": 2199
+      },
+      "discontinuity_flags_in_window": 0,
+      "callback_microseconds_median": 0.9,
+      "callback_microseconds_p99": 1.3,
+      "callback_microseconds_max": 14.3,
+      "total_frames_including_startup": 2862,
+      "total_callback_span_seconds": 13.029866,
+      "barcode_sample_y": [
+        282,
+        299,
+        315
+      ]
+    }
+  ],
+  "limitations": [
+    "Repeated or skipped counter IDs describe the end-to-end source-to-capture path; their origin is not isolated.",
+    "The counter advance rate does not independently prove every counter ID was displayed on HDMI."
+  ],
+  "interpretation": "Run 2 is the cleanest 240-counter/sec source measurement: 221.05 received samples/sec, 219.85 distinct IDs/sec, 12 repeated IDs and 201 missed IDs over approximately 10 seconds. Run 3 excluded because barcode moved. Run 4 barcode decodes correctly, but source counter advance slowed to 90.52/sec; its 88.32 distinct IDs/sec does not measure a 240/sec counter source. Incoming sample rate remained approximately 220-221/sec throughout."
+}

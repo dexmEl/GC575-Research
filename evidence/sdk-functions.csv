@@ -1,0 +1,327 @@
+artifact,name,ordinal,va,signature_candidate,calling_convention,category,evidence_level
+rtice-x86,AT2_EDID_Flash_Get_Default_table_Example,1,0x10001120,void __cdecl AT2_EDID_Flash_Get_Default_table_Example(undefined1 *param_1),__cdecl,E,1
+rtice-x86,AT2_EDID_Flash_Set_Default_table_Example,2,0x100010a0,void AT2_EDID_Flash_Set_Default_table_Example(void),,C,1
+rtice-x86,AT2_Get_Customer_Ver_Example,3,0x10001000,void __cdecl AT2_Get_Customer_Ver_Example(undefined4 *param_1),__cdecl,E,1
+rtice-x86,AT_Audio_Get_ADC_OnOff,4,0x10004b00,void __cdecl AT_Audio_Get_ADC_OnOff(undefined1 *param_1),__cdecl,E,1
+rtice-x86,AT_Audio_Get_ADC_VolumeGain,5,0x10001680,void __cdecl AT_Audio_Get_ADC_VolumeGain(undefined2 *param_1),__cdecl,E,1
+rtice-x86,AT_Audio_Get_DACHP_MixerSource,6,0x10002260,void __cdecl AT_Audio_Get_DACHP_MixerSource(undefined2 *param_1),__cdecl,E,1
+rtice-x86,AT_Audio_Get_DACHP_Mute,7,0x100026e0,void __cdecl AT_Audio_Get_DACHP_Mute(undefined1 *param_1),__cdecl,E,1
+rtice-x86,AT_Audio_Get_DACHP_OnOff,8,0x10004ba0,void __cdecl AT_Audio_Get_DACHP_OnOff(undefined1 *param_1),__cdecl,E,1
+rtice-x86,AT_Audio_Get_DPRX_AudioFormat,9,0x10001300,void __cdecl AT_Audio_Get_DPRX_AudioFormat(undefined4 *param_1),__cdecl,E,1
+rtice-x86,AT_Audio_Get_DPRX_AudioSamplingRate,10,0x10001440,void __cdecl AT_Audio_Get_DPRX_AudioSamplingRate(undefined1 *param_1),__cdecl,E,1
+rtice-x86,AT_Audio_Get_HPOUTgain,11,0x10004610,void __cdecl AT_Audio_Get_HPOUTgain(undefined2 *param_1),__cdecl,E,1
+rtice-x86,AT_Audio_Get_HdmiDPRX_VolumeGain,12,0x100017a0,void __cdecl AT_Audio_Get_HdmiDPRX_VolumeGain(undefined2 *param_1),__cdecl,E,1
+rtice-x86,AT_Audio_Get_HdmiRX_AudioFormat,13,0x10001260,void __cdecl AT_Audio_Get_HdmiRX_AudioFormat(undefined1 *param_1),__cdecl,E,1
+rtice-x86,AT_Audio_Get_HdmiRX_AudioSamplingRate,14,0x100013a0,void __cdecl AT_Audio_Get_HdmiRX_AudioSamplingRate(undefined1 *param_1),__cdecl,E,1
+rtice-x86,AT_Audio_Get_I2SOut_MixerSource,15,0x10002380,void __cdecl AT_Audio_Get_I2SOut_MixerSource(undefined2 *param_1),__cdecl,E,1
+rtice-x86,AT_Audio_Get_I2SOut_Mute,16,0x10002800,void __cdecl AT_Audio_Get_I2SOut_Mute(undefined4 *param_1),__cdecl,E,1
+rtice-x86,AT_Audio_Get_UAC_VolumeGain,17,0x100018c0,void __cdecl AT_Audio_Get_UAC_VolumeGain(undefined2 *param_1),__cdecl,E,1
+rtice-x86,AT_Audio_Get_UacOut1_Mute,18,0x100024a0,void __cdecl AT_Audio_Get_UacOut1_Mute(undefined1 *param_1),__cdecl,E,1
+rtice-x86,AT_Audio_Get_UacOut2_MixerSource,19,0x10002140,void __cdecl AT_Audio_Get_UacOut2_MixerSource(undefined2 *param_1),__cdecl,E,1
+rtice-x86,AT_Audio_Get_UacOut2_Mute,20,0x100025c0,void __cdecl AT_Audio_Get_UacOut2_Mute(undefined1 *param_1),__cdecl,E,1
+rtice-x86,AT_Audio_Set_ADC_OnOff,21,0x100014e0,void __cdecl AT_Audio_Set_ADC_OnOff(uint param_1),__cdecl,E,1
+rtice-x86,AT_Audio_Set_ADC_VolumeGain,22,0x10001600,void AT_Audio_Set_ADC_VolumeGain(void),,E,1
+rtice-x86,AT_Audio_Set_DACHP_MixerSource,23,0x100021e0,void __cdecl AT_Audio_Set_DACHP_MixerSource(undefined4 param_1),__cdecl,E,1
+rtice-x86,AT_Audio_Set_DACHP_Mute,24,0x10002660,void AT_Audio_Set_DACHP_Mute(void),,E,1
+rtice-x86,AT_Audio_Set_DACHP_OnOff,25,0x10001570,void __cdecl AT_Audio_Set_DACHP_OnOff(uint param_1),__cdecl,E,1
+rtice-x86,AT_Audio_Set_HPOUTgain,26,0x10004590,void __cdecl AT_Audio_Set_HPOUTgain(undefined4 param_1),__cdecl,E,1
+rtice-x86,AT_Audio_Set_HdmiDPRX_VolumeGain,27,0x10001720,void AT_Audio_Set_HdmiDPRX_VolumeGain(void),,E,1
+rtice-x86,AT_Audio_Set_I2SOut_MixerSource,28,0x10002300,void __cdecl AT_Audio_Set_I2SOut_MixerSource(undefined4 param_1),__cdecl,E,1
+rtice-x86,AT_Audio_Set_I2SOut_Mute,29,0x10002780,void AT_Audio_Set_I2SOut_Mute(void),,E,1
+rtice-x86,AT_Audio_Set_UAC_VolumeGain,30,0x10001840,void AT_Audio_Set_UAC_VolumeGain(void),,E,1
+rtice-x86,AT_Audio_Set_UacOut1_Mute,31,0x10002420,void AT_Audio_Set_UacOut1_Mute(void),,E,1
+rtice-x86,AT_Audio_Set_UacOut2_MixerSource,32,0x100020c0,void __cdecl AT_Audio_Set_UacOut2_MixerSource(undefined4 param_1),__cdecl,E,1
+rtice-x86,AT_Audio_Set_UacOut2_Mute,33,0x10002540,void AT_Audio_Set_UacOut2_Mute(void),,E,1
+rtice-x86,AT_EDID_DDC_Get_RX_table,34,0x10003d40,"void __cdecl AT_EDID_DDC_Get_RX_table(uint param_1,void *param_2)",__cdecl,E,2
+rtice-x86,AT_EDID_DDC_Set_RX_table,35,0x10003bc0,"void __cdecl AT_EDID_DDC_Set_RX_table(uint param_1,void *param_2)",__cdecl,E,2
+rtice-x86,AT_EDID_Flash_Get_Default_table,36,0x10003b20,void __cdecl AT_EDID_Flash_Get_Default_table(undefined1 *param_1),__cdecl,E,2
+rtice-x86,AT_EDID_Flash_Get_table,37,0x10003870,"void __cdecl AT_EDID_Flash_Get_table(byte param_1,void *param_2,uint param_3)",__cdecl,E,2
+rtice-x86,AT_EDID_Flash_Set_Default_table,38,0x10003aa0,void AT_EDID_Flash_Set_Default_table(void),,C,2
+rtice-x86,AT_EDID_Flash_Set_table,39,0x10003a00,"int __cdecl AT_EDID_Flash_Set_table(byte param_1,void *param_2,ushort param_3)",__cdecl,C,1
+rtice-x86,AT_EDID_Get_EDID_mode,40,0x10003530,void __cdecl AT_EDID_Get_EDID_mode(undefined1 *param_1),__cdecl,E,2
+rtice-x86,AT_EDID_Get_TX_table,41,0x10003ec0,"void __cdecl AT_EDID_Get_TX_table(uint param_1,void *param_2)",__cdecl,E,2
+rtice-x86,AT_EDID_Set_EDID_mode,42,0x100034b0,void AT_EDID_Set_EDID_mode(void),,E,2
+rtice-x86,AT_Flash_Get_CustomerProprietary,43,0x100037d0,void __cdecl AT_Flash_Get_CustomerProprietary(undefined4 *param_1),__cdecl,E,1
+rtice-x86,AT_Flash_Set_CustomerProprietary,44,0x10003750,void __cdecl AT_Flash_Set_CustomerProprietary(undefined4 param_1),__cdecl,C,1
+rtice-x86,AT_GPIO_Get_Param,45,0x10004030,"void __cdecl AT_GPIO_Get_Param(undefined1 param_1,undefined1 param_2,undefined1 *param_3)",__cdecl,E,1
+rtice-x86,AT_GPIO_Set_Param,46,0x10004100,"void __cdecl AT_GPIO_Set_Param(undefined1 param_1,undefined1 param_2,undefined1 param_3)",__cdecl,E,1
+rtice-x86,AT_Get_Aux_In_Volume,47,0x10005260,void __cdecl AT_Get_Aux_In_Volume(undefined2 *param_1),__cdecl,E,1
+rtice-x86,AT_Get_Aux_Out_Volume,48,0x10005390,void __cdecl AT_Get_Aux_Out_Volume(undefined2 *param_1),__cdecl,E,1
+rtice-x86,AT_Get_ColorImetry,49,0x10004e20,"void __cdecl AT_Get_ColorImetry(undefined1 param_1,undefined1 *param_2)",__cdecl,E,2
+rtice-x86,AT_Get_ColorRange,50,0x10004f50,"void __cdecl AT_Get_ColorRange(undefined1 param_1,undefined1 *param_2)",__cdecl,E,2
+rtice-x86,AT_Get_Current_Input_Source,51,0x10002920,void __cdecl AT_Get_Current_Input_Source(undefined1 *param_1),__cdecl,E,1
+rtice-x86,AT_Get_Customer_Ver,52,0x10004ce0,void __cdecl AT_Get_Customer_Ver(undefined4 *param_1),__cdecl,E,2
+rtice-x86,AT_Get_HDCP_Version,53,0x100051b0,void __cdecl AT_Get_HDCP_Version(undefined4 *param_1),__cdecl,E,1
+rtice-x86,AT_Get_HdmiRX_VTEM,54,0x10005080,void __cdecl AT_Get_HdmiRX_VTEM(undefined4 *param_1),__cdecl,E,1
+rtice-x86,AT_Get_HdmiRX_Video_Vfreq,55,0x100054c0,void __cdecl AT_Get_HdmiRX_Video_Vfreq(undefined4 *param_1),__cdecl,E,1
+rtice-x86,AT_Get_RX_TX_HDCP_Version,56,0x10005680,void __cdecl AT_Get_RX_TX_HDCP_Version(undefined2 *param_1),__cdecl,E,1
+rtice-x86,AT_Get_Rescue_Ver,57,0x10004d80,void __cdecl AT_Get_Rescue_Ver(undefined4 *param_1),__cdecl,E,1
+rtice-x86,AT_Get_System_Info,58,0x10001f80,"void __cdecl AT_Get_System_Info(void *param_1,size_t param_2)",__cdecl,A,4
+rtice-x86,AT_Get_UAC_Name,59,0x10001a20,"void __cdecl AT_Get_UAC_Name(void *param_1,uint param_2,size_t *param_3)",__cdecl,E,1
+rtice-x86,AT_Get_UVC_Name,60,0x10001960,"void __cdecl AT_Get_UVC_Name(void *param_1,uint param_2,size_t *param_3)",__cdecl,E,1
+rtice-x86,AT_Get_VRR_follow_mode,61,0x10005560,void __cdecl AT_Get_VRR_follow_mode(undefined1 *param_1),__cdecl,E,2
+rtice-x86,AT_HDR2SDR_OnOff,62,0x10001f00,void AT_HDR2SDR_OnOff(void),,E,2
+rtice-x86,AT_HDR2SDR_Status,63,0x10004c40,void __cdecl AT_HDR2SDR_Status(undefined4 *param_1),__cdecl,E,1
+rtice-x86,AT_HdmiRX_GetRawTimingInfo,64,0x10002a60,void __cdecl AT_HdmiRX_GetRawTimingInfo(undefined4 *param_1),__cdecl,E,1
+rtice-x86,AT_HdmiRX_Get_Cable_Connect,65,0x100029c0,void __cdecl AT_HdmiRX_Get_Cable_Connect(undefined4 *param_1),__cdecl,E,1
+rtice-x86,AT_HdmiRX_Get_SPD,66,0x10003370,void __cdecl AT_HdmiRX_Get_SPD(undefined4 *param_1),__cdecl,E,1
+rtice-x86,AT_HdmiRX_Get_VIC,67,0x10002ba0,void __cdecl AT_HdmiRX_Get_VIC(undefined4 *param_1),__cdecl,E,1
+rtice-x86,AT_HdmiRX_Get_VideoStable,68,0x10002b00,void __cdecl AT_HdmiRX_Get_VideoStable(undefined4 *param_1),__cdecl,E,2
+rtice-x86,AT_HdmiRX_Set_HPD,69,0x100049e0,void AT_HdmiRX_Set_HPD(void),,E,1
+rtice-x86,AT_HdmiTX_Get_EDID_Valid,70,0x10002e20,void __cdecl AT_HdmiTX_Get_EDID_Valid(undefined1 *param_1),__cdecl,E,1
+rtice-x86,AT_HdmiTX_Get_HPD_Status,71,0x10002ce0,void __cdecl AT_HdmiTX_Get_HPD_Status(undefined4 *param_1),__cdecl,E,1
+rtice-x86,AT_HdmiTX_Get_VRR,72,0x10002d80,void __cdecl AT_HdmiTX_Get_VRR(undefined4 *param_1),__cdecl,E,1
+rtice-x86,AT_Hdmi_Get_HDCP_Mode,73,0x10004a60,void __cdecl AT_Hdmi_Get_HDCP_Mode(undefined1 *param_1),__cdecl,E,1
+rtice-x86,AT_Input_Source_Switch,74,0x100028a0,void __cdecl AT_Input_Source_Switch(undefined4 param_1),__cdecl,E,1
+rtice-x86,AT_LSADC_Get_Param,75,0x100041c0,"void __cdecl AT_LSADC_Get_Param(undefined1 param_1,undefined1 *param_2)",__cdecl,E,1
+rtice-x86,AT_PWM_Get_Duty_cmd,76,0x100032a0,void __cdecl AT_PWM_Get_Duty_cmd(undefined1 *param_1),__cdecl,E,1
+rtice-x86,AT_PWM_Get_Freq_cmd,77,0x10003140,void __cdecl AT_PWM_Get_Freq_cmd(undefined1 *param_1),__cdecl,E,1
+rtice-x86,AT_PWM_Set_Duty_cmd,78,0x10003210,void __cdecl AT_PWM_Set_Duty_cmd(undefined4 param_1),__cdecl,E,1
+rtice-x86,AT_PWM_Set_Freq_cmd,79,0x100030b0,void __cdecl AT_PWM_Set_Freq_cmd(undefined4 param_1),__cdecl,E,1
+rtice-x86,AT_RestoreToDefault,80,0x100042a0,void AT_RestoreToDefault(void),,D,1
+rtice-x86,AT_SetHDMI_HDCP_OnOff,81,0x100011d0,void __cdecl AT_SetHDMI_HDCP_OnOff(uint param_1),__cdecl,E,1
+rtice-x86,AT_Set_Aux_In_Volume,82,0x10005300,void AT_Set_Aux_In_Volume(void),,E,1
+rtice-x86,AT_Set_Aux_Out_Volume,83,0x10005430,void AT_Set_Aux_Out_Volume(void),,E,1
+rtice-x86,AT_Set_ColorImetry,84,0x10004ed0,void __cdecl AT_Set_ColorImetry(undefined4 param_1),__cdecl,E,2
+rtice-x86,AT_Set_ColorRange,85,0x10005000,void __cdecl AT_Set_ColorRange(undefined4 param_1),__cdecl,E,2
+rtice-x86,AT_Set_System_Reboot,86,0x10002030,void AT_Set_System_Reboot(void),,D,1
+rtice-x86,AT_Set_VRR_follow_mode,87,0x10005600,void AT_Set_VRR_follow_mode(void),,E,2
+rtice-x86,AT_System_Get_ExternalMCU_cmd,88,0x10001c40,"int __cdecl AT_System_Get_ExternalMCU_cmd (undefined1 param_1,undefined1 param_2,uint param_3,void *param_4,ushort param_5, void *param_6)",__cdecl,E,2
+rtice-x86,AT_System_Get_HDRmetadata_cmd,89,0x100044f0,void __cdecl AT_System_Get_HDRmetadata_cmd(undefined4 *param_1),__cdecl,E,1
+rtice-x86,AT_System_Send_ExternalMCU_cmd,90,0x10001d30,"void __cdecl AT_System_Send_ExternalMCU_cmd(undefined1 param_1,undefined1 param_2,ushort param_3,void *param_4)",__cdecl,E,2
+rtice-x86,AT_UAC_Get_UAC_IN_Name,91,0x10004850,"void __cdecl AT_UAC_Get_UAC_IN_Name(void *param_1,uint param_2)",__cdecl,E,1
+rtice-x86,AT_UAC_Get_UAC_OUT2_Name,92,0x10004770,"void __cdecl AT_UAC_Get_UAC_OUT2_Name(void *param_1,uint param_2)",__cdecl,E,1
+rtice-x86,AT_USB_CDC_OnOff,93,0x100046b0,void __cdecl AT_USB_CDC_OnOff(undefined1 param_1),__cdecl,E,1
+rtice-x86,AT_USB_Get_CDC_OnOff,94,0x10005720,void __cdecl AT_USB_Get_CDC_OnOff(undefined4 *param_1),__cdecl,E,1
+rtice-x86,AT_USB_Get_Force_Speed,95,0x100058a0,void __cdecl AT_USB_Get_Force_Speed(undefined4 *param_1),__cdecl,E,1
+rtice-x86,AT_USB_Get_Host_Protocol,96,0x10002c40,void __cdecl AT_USB_Get_Host_Protocol(undefined4 *param_1),__cdecl,E,1
+rtice-x86,AT_USB_Get_Link_State_Count,97,0x100057e0,void __cdecl AT_USB_Get_Link_State_Count(undefined4 *param_1),__cdecl,E,1
+rtice-x86,AT_USB_Get_PowerStatus,98,0x10003410,void __cdecl AT_USB_Get_PowerStatus(undefined4 *param_1),__cdecl,E,1
+rtice-x86,AT_USB_Get_ProductID,99,0x10001b90,void __cdecl AT_USB_Get_ProductID(void *param_1),__cdecl,E,1
+rtice-x86,AT_USB_Get_SerialNum,100,0x10003690,"void __cdecl AT_USB_Get_SerialNum(void *param_1,uint param_2,size_t *param_3)",__cdecl,E,1
+rtice-x86,AT_USB_Get_VID_PID_By_Speed,101,0x10004930,void __cdecl AT_USB_Get_VID_PID_By_Speed(undefined4 *param_1),__cdecl,E,1
+rtice-x86,AT_USB_Get_VendorID,102,0x10001ae0,void __cdecl AT_USB_Get_VendorID(void *param_1),__cdecl,E,1
+rtice-x86,AT_USB_Get_iManufacturer,103,0x10004330,"void __cdecl AT_USB_Get_iManufacturer(void *param_1,uint param_2)",__cdecl,E,1
+rtice-x86,AT_USB_Get_iProduct,104,0x10004410,"void __cdecl AT_USB_Get_iProduct(void *param_1,uint param_2)",__cdecl,E,1
+rtice-x86,AT_USB_Set_Force_Speed,105,0x10005960,void __cdecl AT_USB_Set_Force_Speed(undefined4 param_1),__cdecl,E,1
+rtice-x86,AT_USB_Set_SerialNum,106,0x100035d0,"void __cdecl AT_USB_Set_SerialNum(void *param_1,size_t param_2)",__cdecl,E,1
+rtice-x86,AT_UVC_Get_Err_Status,107,0x10003010,void __cdecl AT_UVC_Get_Err_Status(undefined1 *param_1),__cdecl,E,1
+rtice-x86,AT_UVC_Get_Output_Timing,108,0x10002ec0,void __cdecl AT_UVC_Get_Output_Timing(undefined4 *param_1),__cdecl,E,1
+rtice-x86,AT_UVC_Get_VideoFormat,109,0x10002f70,void __cdecl AT_UVC_Get_VideoFormat(undefined1 *param_1),__cdecl,E,1
+rtice-x86,AT_UVC_Set_HDR_NV12_OnOff,110,0x10001e80,void AT_UVC_Set_HDR_NV12_OnOff(void),,E,2
+rtice-x86,AT_UVC_Set_HDR_P010_OnOff,111,0x10001e00,void AT_UVC_Set_HDR_P010_OnOff(void),,E,2
+rtice-x86,Get_Customer_version,112,0x100062f0,void Get_Customer_version(void),,E,1
+rtice-x86,Get_HDCP_Version_ByFile,113,0x10005130,"void __cdecl Get_HDCP_Version_ByFile(undefined4 param_1,undefined4 param_2,undefined4 *param_3)",__cdecl,E,1
+rtice-x86,burnHDCP,114,0x10006290,void burnHDCP(void),,C,1
+rtice-x86,burnMultiFiles,115,0x100062a0,"void __cdecl burnMultiFiles(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4)",__cdecl,D,1
+rtice-x86,burnMultiFiles2,116,0x100062d0,void burnMultiFiles2(void),,D,1
+rtice-x86,burnToFlash,117,0x10006270,void burnToFlash(void),,D,1
+rtice-x86,burnToFlashWithLog,118,0x10006280,void burnToFlashWithLog(void),,D,1
+rtice-x86,burnUSBDesription,119,0x100062e0,void burnUSBDesription(void),,C,1
+rtice-x86,closePort,120,0x10006330,void closePort(void),,E,1
+rtice-x86,enableLog,121,0x10006260,void enableLog(void),,E,1
+rtice-x86,initialize,122,0x10006090,void initialize(void),,E,1
+rtice-x86,isOpen,123,0x100011c0,void isOpen(void),,E,1
+rtice-x86,openPort,124,0x10006320,void openPort(void),,E,1
+rtice-x86,readRbus,125,0x10006300,void readRbus(void),,E,1
+rtice-x86,setDevice,126,0x10006190,"int __cdecl setDevice(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4)",__cdecl,E,1
+rtice-x86,setPort,127,0x100060c0,"int __cdecl setPort(int param_1,undefined4 param_2)",__cdecl,E,1
+rtice-x86,uninitialize,128,0x100060b0,void uninitialize(void),,E,1
+rtice-x86,writeRbus,129,0x10006310,void writeRbus(void),,D,1
+rtice-x64,AT2_EDID_Flash_Get_Default_table_Example,1,0x180001180,undefined8 AT2_EDID_Flash_Get_Default_table_Example(undefined1 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT2_EDID_Flash_Set_Default_table_Example,2,0x1800010f0,ulonglong AT2_EDID_Flash_Set_Default_table_Example(undefined1 param_1),Windows x64 ABI; recovered arity/types still provisional,C,1
+rtice-x64,AT2_Get_Customer_Ver_Example,3,0x180001000,ulonglong AT2_Get_Customer_Ver_Example(ulonglong *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Audio_CSR_Get_Send_Non_Pcm_Data_On_off,4,0x180006e80,undefined8 AT_Audio_CSR_Get_Send_Non_Pcm_Data_On_off(undefined1 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Audio_Get_ADC_OnOff,5,0x180005c10,undefined8 AT_Audio_Get_ADC_OnOff(undefined1 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Audio_Get_ADC_VolumeGain,6,0x1800022d0,undefined8 AT_Audio_Get_ADC_VolumeGain(undefined2 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Audio_Get_DACHP_MixerSource,7,0x180003020,undefined8 AT_Audio_Get_DACHP_MixerSource(undefined2 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Audio_Get_DACHP_Mute,8,0x180003510,undefined8 AT_Audio_Get_DACHP_Mute(undefined1 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Audio_Get_DACHP_OnOff,9,0x180005cb0,undefined8 AT_Audio_Get_DACHP_OnOff(undefined1 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Audio_Get_DPRX_AudioFormat,10,0x180001ef0,undefined8 AT_Audio_Get_DPRX_AudioFormat(undefined4 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Audio_Get_DPRX_AudioSamplingRate,11,0x180002030,undefined8 AT_Audio_Get_DPRX_AudioSamplingRate(undefined1 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Audio_Get_HPOUTgain,12,0x180005700,undefined8 AT_Audio_Get_HPOUTgain(undefined2 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Audio_Get_HdmiDPRX_VolumeGain,13,0x180002410,undefined8 AT_Audio_Get_HdmiDPRX_VolumeGain(undefined2 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Audio_Get_HdmiRX_AudioFormat,14,0x180001e50,undefined8 AT_Audio_Get_HdmiRX_AudioFormat(undefined1 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Audio_Get_HdmiRX_AudioSamplingRate,15,0x180001f90,undefined8 AT_Audio_Get_HdmiRX_AudioSamplingRate(undefined1 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Audio_Get_I2SOut_MixerSource,16,0x180003170,undefined8 AT_Audio_Get_I2SOut_MixerSource(undefined2 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Audio_Get_I2SOut_Mute,17,0x180003640,undefined8 AT_Audio_Get_I2SOut_Mute(undefined4 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Audio_Get_UAC_VolumeGain,18,0x180002550,undefined8 AT_Audio_Get_UAC_VolumeGain(undefined2 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Audio_Get_UacOut1_Mute,19,0x1800032b0,undefined8 AT_Audio_Get_UacOut1_Mute(undefined1 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Audio_Get_UacOut2_MixerSource,20,0x180002ed0,undefined8 AT_Audio_Get_UacOut2_MixerSource(undefined2 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Audio_Get_UacOut2_Mute,21,0x1800033e0,undefined8 AT_Audio_Get_UacOut2_Mute(undefined1 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Audio_Send_Non_Pcm_Data,22,0x180006df0,ulonglong AT_Audio_Send_Non_Pcm_Data(undefined4 param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Audio_Set_ADC_OnOff,23,0x1800020d0,ulonglong AT_Audio_Set_ADC_OnOff(int param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Audio_Set_ADC_VolumeGain,24,0x180002230,ulonglong AT_Audio_Set_ADC_VolumeGain(undefined4 param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Audio_Set_DACHP_MixerSource,25,0x180002f80,ulonglong AT_Audio_Set_DACHP_MixerSource(undefined8 param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Audio_Set_DACHP_Mute,26,0x180003480,ulonglong AT_Audio_Set_DACHP_Mute(undefined1 param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Audio_Set_DACHP_OnOff,27,0x180002180,ulonglong AT_Audio_Set_DACHP_OnOff(int param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Audio_Set_HPOUTgain,28,0x180005660,ulonglong AT_Audio_Set_HPOUTgain(undefined8 param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Audio_Set_HdmiDPRX_VolumeGain,29,0x180002380,ulonglong AT_Audio_Set_HdmiDPRX_VolumeGain(undefined4 param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Audio_Set_I2SOut_MixerSource,30,0x1800030d0,ulonglong AT_Audio_Set_I2SOut_MixerSource(undefined8 param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Audio_Set_I2SOut_Mute,31,0x1800035b0,ulonglong AT_Audio_Set_I2SOut_Mute(undefined1 param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Audio_Set_UAC_VolumeGain,32,0x1800024c0,ulonglong AT_Audio_Set_UAC_VolumeGain(undefined4 param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Audio_Set_UacOut1_Mute,33,0x180003220,ulonglong AT_Audio_Set_UacOut1_Mute(undefined1 param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Audio_Set_UacOut2_MixerSource,34,0x180002e30,ulonglong AT_Audio_Set_UacOut2_MixerSource(undefined8 param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Audio_Set_UacOut2_Mute,35,0x180003350,ulonglong AT_Audio_Set_UacOut2_Mute(undefined1 param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_DPRX_EDID_Get_EDID_mode,36,0x180006f30,undefined8 AT_DPRX_EDID_Get_EDID_mode(undefined1 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_EDID_DDC_Get_RX_table,37,0x180004d30,"int AT_EDID_DDC_Get_RX_table(ushort param_1,longlong param_2)",Windows x64 ABI; recovered arity/types still provisional,E,2
+rtice-x64,AT_EDID_DDC_Set_RX_table,38,0x180004b80,"int AT_EDID_DDC_Set_RX_table(ushort param_1,longlong param_2)",Windows x64 ABI; recovered arity/types still provisional,E,2
+rtice-x64,AT_EDID_Flash_Get_Default_table,39,0x180004ae0,undefined8 AT_EDID_Flash_Get_Default_table(undefined1 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,2
+rtice-x64,AT_EDID_Flash_Get_table,40,0x1800047b0,"int AT_EDID_Flash_Get_table(byte param_1,longlong param_2,ushort param_3)",Windows x64 ABI; recovered arity/types still provisional,E,2
+rtice-x64,AT_EDID_Flash_Set_Default_table,41,0x180004a50,ulonglong AT_EDID_Flash_Set_Default_table(undefined1 param_1),Windows x64 ABI; recovered arity/types still provisional,C,2
+rtice-x64,AT_EDID_Flash_Set_table,42,0x180004970,"int AT_EDID_Flash_Set_table(byte param_1,void *param_2,ushort param_3)",Windows x64 ABI; recovered arity/types still provisional,C,1
+rtice-x64,AT_EDID_Get_EDID_mode,43,0x180004420,undefined8 AT_EDID_Get_EDID_mode(undefined1 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,2
+rtice-x64,AT_EDID_Get_TX_table,44,0x180004ee0,"int AT_EDID_Get_TX_table(ushort param_1,longlong param_2)",Windows x64 ABI; recovered arity/types still provisional,E,2
+rtice-x64,AT_EDID_Set_EDID_mode,45,0x180004390,ulonglong AT_EDID_Set_EDID_mode(undefined4 param_1),Windows x64 ABI; recovered arity/types still provisional,E,2
+rtice-x64,AT_Flash_Get_CustomerProprietary,46,0x180004700,ulonglong AT_Flash_Get_CustomerProprietary(ulonglong *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Flash_Set_CustomerProprietary,47,0x180004660,ulonglong AT_Flash_Set_CustomerProprietary(undefined8 param_1),Windows x64 ABI; recovered arity/types still provisional,C,1
+rtice-x64,AT_GPIO_Get_Param,48,0x180005090,"int AT_GPIO_Get_Param(undefined1 param_1,undefined1 param_2,undefined1 *param_3)",Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_GPIO_Set_Param,49,0x180005180,"int AT_GPIO_Set_Param(undefined1 param_1,undefined1 param_2,undefined1 param_3)",Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Get_Aux_In_Volume,50,0x1800063f0,undefined8 AT_Get_Aux_In_Volume(undefined2 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Get_Aux_Out_Volume,51,0x180006550,undefined8 AT_Get_Aux_Out_Volume(undefined2 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Get_ColorImetry,52,0x180005f80,"undefined8 AT_Get_ColorImetry(undefined1 param_1,undefined1 *param_2)",Windows x64 ABI; recovered arity/types still provisional,E,2
+rtice-x64,AT_Get_ColorRange,53,0x1800060d0,"undefined8 AT_Get_ColorRange(undefined1 param_1,undefined1 *param_2)",Windows x64 ABI; recovered arity/types still provisional,E,2
+rtice-x64,AT_Get_Current_Input_Source,54,0x180003780,undefined8 AT_Get_Current_Input_Source(undefined1 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Get_Customer_Ver,55,0x180005df0,ulonglong AT_Get_Customer_Ver(ulonglong *param_1),Windows x64 ABI; recovered arity/types still provisional,E,2
+rtice-x64,AT_Get_HDCP_Version,56,0x180006340,ulonglong AT_Get_HDCP_Version(ulonglong *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Get_HdmiRX_AVI_Infoframe,57,0x180006c80,undefined8 AT_Get_HdmiRX_AVI_Infoframe(ulonglong *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Get_HdmiRX_Bit_Error,58,0x180006d40,undefined8 AT_Get_HdmiRX_Bit_Error(ulonglong *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Get_HdmiRX_VTEM,59,0x180006220,undefined8 AT_Get_HdmiRX_VTEM(ulonglong *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Get_HdmiRX_Video_Vfreq,60,0x1800066b0,undefined8 AT_Get_HdmiRX_Video_Vfreq(undefined4 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Get_RX_TX_HDCP_Version,61,0x1800068a0,undefined8 AT_Get_RX_TX_HDCP_Version(undefined2 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Get_Rescue_Ver,62,0x180005ee0,undefined8 AT_Get_Rescue_Ver(undefined4 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Get_System_Info,63,0x180002cc0,"undefined8 AT_Get_System_Info(ulonglong *param_1,int param_2)",Windows x64 ABI; recovered arity/types still provisional,A,4
+rtice-x64,AT_Get_UAC_Name,64,0x1800026c0,"undefined8 AT_Get_UAC_Name(void *param_1,uint param_2,uint *param_3)",Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Get_USB_decription_Index,65,0x1800071f0,int AT_Get_USB_decription_Index(undefined4 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,3
+rtice-x64,AT_Get_UVC_Name,66,0x180002600,"undefined8 AT_Get_UVC_Name(void *param_1,uint param_2,uint *param_3)",Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Get_Uart_OnOff,67,0x180007070,undefined8 AT_Get_Uart_OnOff(undefined1 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Get_VRR_follow_mode,68,0x180006760,undefined8 AT_Get_VRR_follow_mode(undefined1 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,2
+rtice-x64,AT_HDR2SDR_OnOff,69,0x180002c30,ulonglong AT_HDR2SDR_OnOff(undefined1 param_1),Windows x64 ABI; recovered arity/types still provisional,E,2
+rtice-x64,AT_HDR2SDR_Status,70,0x180005d50,undefined8 AT_HDR2SDR_Status(undefined4 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_HdmiRX_GetRawTimingInfo,71,0x1800038c0,ulonglong AT_HdmiRX_GetRawTimingInfo(ulonglong *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_HdmiRX_Get_Cable_Connect,72,0x180003820,undefined8 AT_HdmiRX_Get_Cable_Connect(undefined4 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_HdmiRX_Get_SPD,73,0x180004230,undefined8 AT_HdmiRX_Get_SPD(ulonglong *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_HdmiRX_Get_VIC,74,0x180003a20,undefined8 AT_HdmiRX_Get_VIC(undefined4 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_HdmiRX_Get_VideoStable,75,0x180003980,undefined8 AT_HdmiRX_Get_VideoStable(undefined4 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,2
+rtice-x64,AT_HdmiRX_Set_HPD,76,0x180005ae0,ulonglong AT_HdmiRX_Set_HPD(undefined1 param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_HdmiTX_Get_EDID_Valid,77,0x180003ca0,undefined8 AT_HdmiTX_Get_EDID_Valid(undefined1 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_HdmiTX_Get_HPD_Status,78,0x180003b60,undefined8 AT_HdmiTX_Get_HPD_Status(undefined4 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_HdmiTX_Get_VRR,79,0x180003c00,undefined8 AT_HdmiTX_Get_VRR(undefined4 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Hdmi_Get_HDCP_Mode,80,0x180005b70,undefined8 AT_Hdmi_Get_HDCP_Mode(undefined1 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Input_Source_Switch,81,0x1800036e0,ulonglong AT_Input_Source_Switch(undefined8 param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_LSADC_Get_Param,82,0x180005260,"int AT_LSADC_Get_Param(undefined1 param_1,undefined1 *param_2)",Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_PWM_Get_Duty_cmd,83,0x180004160,int AT_PWM_Get_Duty_cmd(undefined1 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_PWM_Get_Freq_cmd,84,0x180003fe0,int AT_PWM_Get_Freq_cmd(undefined1 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_PWM_Set_Duty_cmd,85,0x1800040b0,int AT_PWM_Set_Duty_cmd(undefined8 param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_PWM_Set_Freq_cmd,86,0x180003f30,int AT_PWM_Set_Freq_cmd(undefined8 param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_RestoreToDefault,87,0x180005340,int AT_RestoreToDefault(void),Windows x64 ABI; recovered arity/types still provisional,D,1
+rtice-x64,AT_SetHDMI_HDCP_OnOff,88,0x180001da0,ulonglong AT_SetHDMI_HDCP_OnOff(int param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Set_Aux_In_Volume,89,0x1800064a0,int AT_Set_Aux_In_Volume(undefined2 param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Set_Aux_Out_Volume,90,0x180006600,int AT_Set_Aux_Out_Volume(undefined2 param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Set_ColorImetry,91,0x180006030,ulonglong AT_Set_ColorImetry(undefined8 param_1),Windows x64 ABI; recovered arity/types still provisional,E,2
+rtice-x64,AT_Set_ColorRange,92,0x180006180,ulonglong AT_Set_ColorRange(undefined8 param_1),Windows x64 ABI; recovered arity/types still provisional,E,2
+rtice-x64,AT_Set_System_Reboot,93,0x180002d90,int AT_Set_System_Reboot(void),Windows x64 ABI; recovered arity/types still provisional,D,1
+rtice-x64,AT_Set_USB_decription_Index,94,0x180007120,int AT_Set_USB_decription_Index(undefined4 param_1),Windows x64 ABI; recovered arity/types still provisional,E,3
+rtice-x64,AT_Set_Uart_OnOff,95,0x180006fe0,ulonglong AT_Set_Uart_OnOff(undefined1 param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_Set_VRR_follow_mode,96,0x180006810,ulonglong AT_Set_VRR_follow_mode(undefined1 param_1),Windows x64 ABI; recovered arity/types still provisional,E,2
+rtice-x64,AT_System_Get_ExternalMCU_cmd,97,0x1800028e0,"int AT_System_Get_ExternalMCU_cmd (undefined1 param_1,undefined1 param_2,ushort param_3,void *param_4,ushort param_5, void *param_6)",Windows x64 ABI; recovered arity/types still provisional,E,2
+rtice-x64,AT_System_Get_HDRmetadata_cmd,98,0x1800055a0,undefined8 AT_System_Get_HDRmetadata_cmd(ulonglong *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_System_Send_ExternalMCU_cmd,99,0x180002a10,"int AT_System_Send_ExternalMCU_cmd (undefined1 param_1,undefined1 param_2,ushort param_3,void *param_4)",Windows x64 ABI; recovered arity/types still provisional,E,2
+rtice-x64,AT_UAC_Get_UAC_IN_Name,100,0x180005950,"int AT_UAC_Get_UAC_IN_Name(void *param_1,uint param_2)",Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_UAC_Get_UAC_OUT2_Name,101,0x180005870,"int AT_UAC_Get_UAC_OUT2_Name(void *param_1,uint param_2)",Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_USB_CDC_OnOff,102,0x1800057b0,ulonglong AT_USB_CDC_OnOff(undefined1 param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_USB_Get_CDC_OnOff,103,0x180006950,undefined8 AT_USB_Get_CDC_OnOff(undefined4 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_USB_Get_Force_Speed,104,0x180006af0,undefined8 AT_USB_Get_Force_Speed(undefined4 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_USB_Get_Host_Protocol,105,0x180003ac0,undefined8 AT_USB_Get_Host_Protocol(undefined4 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_USB_Get_Link_State_Count,106,0x180006a20,undefined8 AT_USB_Get_Link_State_Count(undefined4 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_USB_Get_PowerStatus,107,0x1800042f0,undefined8 AT_USB_Get_PowerStatus(undefined4 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_USB_Get_ProductID,108,0x180002830,undefined8 AT_USB_Get_ProductID(void *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_USB_Get_SerialNum,109,0x1800045a0,"undefined8 AT_USB_Get_SerialNum(void *param_1,uint param_2,uint *param_3)",Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_USB_Get_VID_PID_By_Speed,110,0x180005a30,undefined8 AT_USB_Get_VID_PID_By_Speed(undefined8 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_USB_Get_VendorID,111,0x180002780,undefined8 AT_USB_Get_VendorID(void *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_USB_Get_iManufacturer,112,0x1800053e0,"int AT_USB_Get_iManufacturer(void *param_1,uint param_2)",Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_USB_Get_iProduct,113,0x1800054c0,"int AT_USB_Get_iProduct(void *param_1,uint param_2)",Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_USB_Set_Force_Speed,114,0x180006bc0,ulonglong AT_USB_Set_Force_Speed(undefined4 param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_USB_Set_SerialNum,115,0x1800044c0,"ulonglong AT_USB_Set_SerialNum(void *param_1,uint param_2)",Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_UVC_Get_Err_Status,116,0x180003e90,undefined8 AT_UVC_Get_Err_Status(undefined1 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_UVC_Get_Output_Timing,117,0x180003d40,undefined8 AT_UVC_Get_Output_Timing(ulonglong *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_UVC_Get_VideoFormat,118,0x180003df0,undefined8 AT_UVC_Get_VideoFormat(undefined1 *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,AT_UVC_Set_HDR_NV12_OnOff,119,0x180002ba0,ulonglong AT_UVC_Set_HDR_NV12_OnOff(undefined1 param_1),Windows x64 ABI; recovered arity/types still provisional,E,2
+rtice-x64,AT_UVC_Set_HDR_P010_OnOff,120,0x180002b10,ulonglong AT_UVC_Set_HDR_P010_OnOff(undefined1 param_1),Windows x64 ABI; recovered arity/types still provisional,E,2
+rtice-x64,Get_Customer_version,121,0x18000fdd0,void Get_Customer_version(void),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,Get_HDCP_Version_ByFile,122,0x1800062d0,"void Get_HDCP_Version_ByFile(undefined8 param_1,undefined2 param_2,ulonglong *param_3)",Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,burnHDCP,123,0x18000fd50,void burnHDCP(void),Windows x64 ABI; recovered arity/types still provisional,C,1
+rtice-x64,burnMultiFiles,124,0x18000fd60,void burnMultiFiles(void),Windows x64 ABI; recovered arity/types still provisional,D,1
+rtice-x64,burnMultiFiles2,125,0x18000fd80,void burnMultiFiles2(void),Windows x64 ABI; recovered arity/types still provisional,D,1
+rtice-x64,burnToFlash,126,0x18000fd30,void burnToFlash(void),Windows x64 ABI; recovered arity/types still provisional,D,1
+rtice-x64,burnToFlashWithLog,127,0x18000fd40,void burnToFlashWithLog(void),Windows x64 ABI; recovered arity/types still provisional,D,1
+rtice-x64,burnUSBDesription,128,0x18000fdc0,void burnUSBDesription(void),Windows x64 ABI; recovered arity/types still provisional,C,1
+rtice-x64,closePort,129,0x18000fe10,void closePort(void),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,enableLog,130,0x18000fd20,void enableLog(void),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,initialize,131,0x18000fb00,void initialize(void),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,isOpen,132,0x180001a30,void isOpen(void),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,openPort,133,0x18000fe00,void openPort(void),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,readMultiFiles,134,0x18000fda0,void readMultiFiles(void),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,readRbus,135,0x18000fde0,void readRbus(void),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,setDevice,136,0x18000fc30,"ulonglong setDevice(undefined8 param_1,undefined8 param_2,ulonglong param_3,ulonglong param_4)",Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,setPort,137,0x18000fb30,"ulonglong setPort(int param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4)",Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,uninitialize,138,0x18000fb20,void uninitialize(void),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtice-x64,writeRbus,139,0x18000fdf0,void writeRbus(void),Windows x64 ABI; recovered arity/types still provisional,D,1
+rtk-x86,rtk_Get_Customer_version,1,0x6b416860,"byte rtk_Get_Customer_version(char *param_1,undefined4 param_2)",,E,1
+rtk-x86,rtk_burnEDID,2,0x6b414cd0,"byte rtk_burnEDID(undefined4 param_1,undefined4 param_2)",,C,1
+rtk-x86,rtk_burnHDCP,3,0x6b416130,byte rtk_burnHDCP(char *param_1),,C,1
+rtk-x86,rtk_burnMultiFiles,4,0x6b414700,"byte rtk_burnMultiFiles(int param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4, undefined4 *param_5)",,D,1
+rtk-x86,rtk_burnToFlash,5,0x6b415420,"byte rtk_burnToFlash(char *param_1,undefined4 param_2)",,D,1
+rtk-x86,rtk_burnToFlashWithLog,6,0x6b415aa0,"byte rtk_burnToFlashWithLog(char *param_1,undefined4 param_2,undefined4 param_3)",,D,1
+rtk-x86,rtk_burnUSBDesription,7,0x6b416db0,"byte rtk_burnUSBDesription(char *param_1,int param_2)",,C,1
+rtk-x86,rtk_closePort,8,0x6b415230,undefined4 rtk_closePort(void),,E,1
+rtk-x86,rtk_enableLog,9,0x6b414670,void rtk_enableLog(uint param_1),,E,1
+rtk-x86,rtk_enterDebugMode,10,0x6b414ea0,byte rtk_enterDebugMode(void),,E,1
+rtk-x86,rtk_exitDebugMode,11,0x6b414ee0,undefined4 rtk_exitDebugMode(void),,E,1
+rtk-x86,rtk_getCurrentDeviceName,12,0x6b414410,undefined1 * rtk_getCurrentDeviceName(void),,E,1
+rtk-x86,rtk_get_HDCP_Version_ByFile,13,0x6b4153c0,"undefined4 rtk_get_HDCP_Version_ByFile(int param_1,ushort param_2,undefined4 *param_3)",,E,1
+rtk-x86,rtk_initialize,14,0x6b413190,undefined4 rtk_initialize(void),,E,1
+rtk-x86,rtk_isOpen,15,0x6b415260,char rtk_isOpen(void),,E,1
+rtk-x86,rtk_openPort,16,0x6b4151f0,undefined4 rtk_openPort(void),,E,1
+rtk-x86,rtk_readRbus,17,0x6b414f10,"byte rtk_readRbus(undefined4 param_1,undefined4 param_2)",,E,1
+rtk-x86,rtk_rescueReadRbus,18,0x6b414fb0,"byte rtk_rescueReadRbus(undefined4 param_1,undefined4 param_2)",,D,1
+rtk-x86,rtk_rescueWriteRbus,19,0x6b415080,"byte rtk_rescueWriteRbus(undefined4 param_1,undefined4 param_2)",,D,1
+rtk-x86,rtk_sendATCommand,20,0x6b415290,undefined4 rtk_sendATCommand(void),,E,1
+rtk-x86,rtk_sendI2CATCommand,21,0x6b415370,"undefined4 rtk_sendI2CATCommand (undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined2 param_4, undefined4 param_5)",,E,1
+rtk-x86,rtk_setBeforeBurnCallBack,22,0x6b415150,void rtk_setBeforeBurnCallBack(undefined4 param_1),,C,1
+rtk-x86,rtk_setCurrentDevice,23,0x6b413380,undefined4 rtk_setCurrentDevice(undefined *param_1),,E,1
+rtk-x86,rtk_setDevice,24,0x6b413bf0,"undefined4 rtk_setDevice(undefined *param_1,undefined *param_2,int param_3,int param_4)",,E,1
+rtk-x86,rtk_setUVCExtension,25,0x6b413340,undefined4 rtk_setUVCExtension(void),,E,1
+rtk-x86,rtk_uninitialize,26,0x6b413100,void rtk_uninitialize(void),,E,1
+rtk-x86,rtk_uninitialize_ex,27,0x6b4130a0,undefined4 rtk_uninitialize_ex(char param_1),,E,1
+rtk-x86,rtk_writeRbus,28,0x6b414f60,byte rtk_writeRbus(undefined4 param_1),,D,1
+rtk-x64,rtk_Get_Customer_version,1,0x6afc6450,"byte rtk_Get_Customer_version(longlong param_1,undefined8 param_2)",Windows x64 ABI; recovered arity/types still provisional,E,1
+rtk-x64,rtk_burnDPEDID,2,0x6afc2e80,"byte rtk_burnDPEDID(undefined8 param_1,undefined4 param_2)",Windows x64 ABI; recovered arity/types still provisional,C,1
+rtk-x64,rtk_burnEDID,3,0x6afc2ce0,"byte rtk_burnEDID(undefined8 param_1,undefined4 param_2)",Windows x64 ABI; recovered arity/types still provisional,C,1
+rtk-x64,rtk_burnHDCP,4,0x6afc5e70,"byte rtk_burnHDCP(longlong param_1,undefined8 param_2)",Windows x64 ABI; recovered arity/types still provisional,C,1
+rtk-x64,rtk_burnMultiFiles,5,0x6afc3e10,"byte rtk_burnMultiFiles(uint param_1,undefined8 param_2,undefined4 param_3,undefined8 param_4, undefined4 *param_5)",Windows x64 ABI; recovered arity/types still provisional,D,1
+rtk-x64,rtk_burnToFlash,6,0x6afc5340,"byte rtk_burnToFlash(longlong param_1,undefined8 param_2)",Windows x64 ABI; recovered arity/types still provisional,D,1
+rtk-x64,rtk_burnToFlashWithLog,7,0x6afc58d0,"byte rtk_burnToFlashWithLog(longlong param_1,undefined8 param_2,undefined8 param_3)",Windows x64 ABI; recovered arity/types still provisional,D,1
+rtk-x64,rtk_burnUSBDesription,8,0x6afc6910,"byte rtk_burnUSBDesription(longlong param_1,undefined8 param_2,int param_3)",Windows x64 ABI; recovered arity/types still provisional,C,1
+rtk-x64,rtk_closePort,9,0x6afc33a0,undefined8 rtk_closePort(void),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtk-x64,rtk_enableLog,10,0x6afc2c60,void rtk_enableLog(uint param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtk-x64,rtk_enterDebugMode,11,0x6afc3020,byte rtk_enterDebugMode(void),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtk-x64,rtk_exitDebugMode,12,0x6afc3060,undefined8 rtk_exitDebugMode(void),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtk-x64,rtk_getCurrentDeviceName,13,0x6afc35a0,undefined8 rtk_getCurrentDeviceName(void),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtk-x64,rtk_get_HDCP_Version_ByFile,14,0x6afc3550,"undefined8 rtk_get_HDCP_Version_ByFile(longlong param_1,ushort param_2,undefined4 *param_3)",Windows x64 ABI; recovered arity/types still provisional,E,1
+rtk-x64,rtk_initialize,15,0x6afc3870,undefined8 rtk_initialize(void),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtk-x64,rtk_isOpen,16,0x6afc33f0,char rtk_isOpen(void),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtk-x64,rtk_openPort,17,0x6afc3350,undefined8 rtk_openPort(void),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtk-x64,rtk_readMultiFiles,18,0x6afc3a20,"byte rtk_readMultiFiles(uint param_1,undefined8 param_2,undefined4 param_3,undefined8 param_4, undefined4 *param_5)",Windows x64 ABI; recovered arity/types still provisional,E,1
+rtk-x64,rtk_readRbus,19,0x6afc3090,"longlong rtk_readRbus(undefined4 param_1,undefined8 param_2)",Windows x64 ABI; recovered arity/types still provisional,E,1
+rtk-x64,rtk_rescueReadRbus,20,0x6afc3130,"longlong rtk_rescueReadRbus(undefined4 param_1,undefined8 param_2)",Windows x64 ABI; recovered arity/types still provisional,D,1
+rtk-x64,rtk_rescueWriteRbus,21,0x6afc31f0,"byte rtk_rescueWriteRbus(undefined4 param_1,undefined4 param_2)",Windows x64 ABI; recovered arity/types still provisional,D,1
+rtk-x64,rtk_sendATCommand,22,0x6afc3430,"undefined8 rtk_sendATCommand(undefined4 param_1,undefined8 param_2,undefined8 param_3,undefined2 param_4, undefined4 param_5)",Windows x64 ABI; recovered arity/types still provisional,E,1
+rtk-x64,rtk_sendI2CATCommand,23,0x6afc3500,"undefined8 rtk_sendI2CATCommand (undefined4 param_1,undefined8 param_2,undefined8 param_3,undefined2 param_4, undefined4 param_5)",Windows x64 ABI; recovered arity/types still provisional,E,1
+rtk-x64,rtk_setBeforeBurnCallBack,24,0x6afc32b0,void rtk_setBeforeBurnCallBack(undefined8 param_1),Windows x64 ABI; recovered arity/types still provisional,C,1
+rtk-x64,rtk_setCurrentDevice,25,0x6afc4b60,undefined8 rtk_setCurrentDevice(undefined *param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtk-x64,rtk_setDevice,26,0x6afc4330,"undefined8 rtk_setDevice(undefined *param_1,undefined *param_2,int param_3,int param_4)",Windows x64 ABI; recovered arity/types still provisional,E,1
+rtk-x64,rtk_setUVCExtension,27,0x6afc2c20,undefined8 rtk_setUVCExtension(void),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtk-x64,rtk_uninitialize,28,0x6afc2ba0,void rtk_uninitialize(void),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtk-x64,rtk_uninitialize_ex,29,0x6afc2b50,undefined8 rtk_uninitialize_ex(char param_1),Windows x64 ABI; recovered arity/types still provisional,E,1
+rtk-x64,rtk_writeRbus,30,0x6afc30e0,"byte rtk_writeRbus(undefined4 param_1,undefined4 param_2)",Windows x64 ABI; recovered arity/types still provisional,D,1

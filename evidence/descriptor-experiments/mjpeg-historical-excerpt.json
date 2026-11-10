@@ -1,0 +1,6 @@
+{
+  "source_path": "/mnt/d/VYSE/VYSE/VyseAI/GC575_Test/docs/gc575_mjpeg_restart_markers.md",
+  "source_sha256": "2ced7b97e17d7cb6d2a842594237cc13f4ba7648081db6540a00cbbf226824bc",
+  "excerpt": "The extended AT probe reports HDMI cable-connected and video-stable, and its\nraw timing data identifies a 2560x1440 input. One diagnostic graph happened to\nleave the UVC output timing at 1920x1080 at 240 Hz, but that is not the target\nmode. The burned USB descriptor already replaces the stock 2560x1440@60 MJPEG\nentry with 2560x1440@240 MJPEG, and the application negotiates its exact\n41,666 (100 ns) interval. Descriptor exposure is complete; the remaining work\nis entropy-decode latency and, if possible, restart-marker generation.\n",
+  "scope": "Historical report excerpt, not raw descriptor readback, burn log, or unique-frame-rate measurement. Other claims in the original report have not been reconciled with the canonical investigation."
+}

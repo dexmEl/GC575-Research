@@ -1,0 +1,20 @@
+{
+  "path": "FW/GC575_FW_1.1.7.1_20260604.img",
+  "sha256": "c51aab22540afc7e7d1fd053c4668509a4e3d161d2de3011f13c20d7fd0267e9",
+  "outer_offset": "0x258f25",
+  "descriptor_hex": "1c240604c7731096f749f244ab42e940405940c2110103030ffe0100",
+  "length": 28,
+  "descriptor_type": 36,
+  "descriptor_subtype": 6,
+  "entity_id": 4,
+  "guid": "961073c7-49f7-44f2-ab42-e940405940c2",
+  "num_controls": 17,
+  "num_input_pins": 1,
+  "source_ids": [
+    3
+  ],
+  "control_size": 3,
+  "controls_hex": "0ffe01",
+  "string_index": 0,
+  "evidence_type": "stored firmware data, not live descriptor"
+}

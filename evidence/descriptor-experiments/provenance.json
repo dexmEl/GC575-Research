@@ -1,0 +1,124 @@
+{
+  "recovered": "2026-11-10",
+  "source_root": "/mnt/d/VYSE/VYSE/VyseAI/GC575_Test",
+  "files": [
+    {
+      "file": "verification.json",
+      "original_path": "/mnt/d/VYSE/VYSE/VyseAI/GC575_Test/artifacts/gc575_yuy2_1080p240_20261104/verification.json",
+      "bytes": 1633,
+      "sha256": "2b609f4a96db757873ce9b5c3a21aa2770ca5c08f4d952abc1e876aecc41d0e8"
+    },
+    {
+      "file": "physical-before-USB_DT_SSP_01.bin",
+      "original_path": "/mnt/d/VYSE/VYSE/VyseAI/GC575_Test/artifacts/gc575_yuy2_1080p240_20261104/physical-before-USB_DT_SSP_01.bin",
+      "bytes": 4096,
+      "sha256": "fdabb0300f01b52be069ef2df4245126b30379ab5a0073d835cceafd981a16a0"
+    },
+    {
+      "file": "physical-before-type6-USB_DT_SSP.bin",
+      "original_path": "/mnt/d/VYSE/VYSE/VyseAI/GC575_Test/artifacts/gc575_yuy2_1080p240_20261104/physical-before-type6-USB_DT_SSP.bin",
+      "bytes": 4096,
+      "sha256": "746f0c6ebf5a1dce6acaf41b82169e1332cafb487ec0c4af4d09bef11cc26031"
+    },
+    {
+      "file": "USB_DT_SSP_01_YUY2_1080p240.bin",
+      "original_path": "/mnt/d/VYSE/VYSE/VyseAI/GC575_Test/artifacts/gc575_yuy2_1080p240_20261104/USB_DT_SSP_01_YUY2_1080p240.bin",
+      "bytes": 4096,
+      "sha256": "35774489dee4ca201c0e574ecbd8e21d262984ab7fdcaebf1d5dbdd198445c76"
+    },
+    {
+      "file": "physical-after-USB_DT_SSP_01.bin",
+      "original_path": "/mnt/d/VYSE/VYSE/VyseAI/GC575_Test/artifacts/gc575_yuy2_1080p240_20261104/physical-after-USB_DT_SSP_01.bin",
+      "bytes": 4096,
+      "sha256": "35774489dee4ca201c0e574ecbd8e21d262984ab7fdcaebf1d5dbdd198445c76"
+    },
+    {
+      "file": "physical-after-USB_DT_SSP.bin",
+      "original_path": "/mnt/d/VYSE/VYSE/VyseAI/GC575_Test/artifacts/gc575_yuy2_1080p240_20261104/physical-after-USB_DT_SSP.bin",
+      "bytes": 4096,
+      "sha256": "746f0c6ebf5a1dce6acaf41b82169e1332cafb487ec0c4af4d09bef11cc26031"
+    },
+    {
+      "file": "live-before-configuration-0.bin",
+      "original_path": "/mnt/d/VYSE/VYSE/VyseAI/GC575_Test/artifacts/gc575_yuy2_1080p240_20261104/live-before-configuration-0.bin",
+      "bytes": 2185,
+      "sha256": "748f96e55df9ccf12a645461291c2a2de147f5f2d521676923e2cb361a7ac939"
+    },
+    {
+      "file": "live-final-configuration-0.bin",
+      "original_path": "/mnt/d/VYSE/VYSE/VyseAI/GC575_Test/artifacts/gc575_yuy2_1080p240_20261104/live-final-configuration-0.bin",
+      "bytes": 2185,
+      "sha256": "ee80a09ade3a6ae7b6575588428ebe4b883d1c763df14438c0ee4f9c8aa1fa52"
+    },
+    {
+      "file": "physical-burn-profile1.log",
+      "original_path": "/mnt/d/VYSE/VYSE/VyseAI/GC575_Test/artifacts/gc575_yuy2_1080p240_20261104/physical-burn-profile1.log",
+      "bytes": 3804,
+      "sha256": "46b958a267b42cba276f5156873843d26557e9a489206b0b239a1164b264a0dc"
+    },
+    {
+      "file": "physical-activate-profile1.log",
+      "original_path": "/mnt/d/VYSE/VYSE/VyseAI/GC575_Test/artifacts/gc575_yuy2_1080p240_20261104/physical-activate-profile1.log",
+      "bytes": 1632,
+      "sha256": "0f21eaf25d1921cac74bd4804d99b15fc2233dc468500b89bbd416c0be9dd9fb"
+    },
+    {
+      "file": "physical_profile1_patch_report.json",
+      "original_path": "/mnt/d/VYSE/VYSE/VyseAI/GC575_Test/artifacts/gc575_yuy2_1080p240_20261104/physical_profile1_patch_report.json",
+      "bytes": 3208,
+      "sha256": "427a767475864a83e82685677b94c1e7161fc0c90b443c1b10ea524d9b455995"
+    },
+    {
+      "file": "readback_sdk_patch_report.json",
+      "original_path": "/mnt/d/VYSE/VYSE/VyseAI/GC575_Test/artifacts/gc575_yuy2_1080p240_20261104/readback_sdk_patch_report.json",
+      "bytes": 1401,
+      "sha256": "a3c14ad58b44d73320d0b33070ba9504b57c27f13c02b44f4a0ac41be03e6ba4"
+    },
+    {
+      "file": "initial-native-results.json",
+      "original_path": "/mnt/d/VYSE/VYSE/VyseAI/GC575_Test/artifacts/gc575_yuy2_240_unique_20261104/native_results.json",
+      "bytes": 3388,
+      "sha256": "fbd1c1eead9424c4fa934683d7b1cd386513f981d231d5ac4fba987f18ba980c"
+    },
+    {
+      "file": "retest-native-results.json",
+      "original_path": "/mnt/d/VYSE/VYSE/VyseAI/GC575_Test/artifacts/gc575_yuy2_240_unique_20261104/retest_240hz_20261104_133742/native_results.json",
+      "bytes": 6398,
+      "sha256": "99d5e75540919d6a0eb3d30d3a737e5647fcc0945c8dfc8978038a9468391e09"
+    },
+    {
+      "file": "retest-run2.log",
+      "original_path": "/mnt/d/VYSE/VYSE/VyseAI/GC575_Test/artifacts/gc575_yuy2_240_unique_20261104/retest_240hz_20261104_133742/native_run2.log",
+      "bytes": 2291,
+      "sha256": "a37f66d7274932f63af9630ab177a39ca5fc66b9243c4776c0d2f6b4e9a9898a"
+    },
+    {
+      "file": "retest-run2-frames.csv",
+      "original_path": "/mnt/d/VYSE/VYSE/VyseAI/GC575_Test/artifacts/gc575_yuy2_240_unique_20261104/retest_240hz_20261104_133742/native_run2_frames.csv",
+      "bytes": 195445,
+      "sha256": "dcb5777e813c71a4054b94b9c558610af3dedaefe45169808c304b17d2ca85bf"
+    },
+    {
+      "file": "burst16-rollback-original.md",
+      "original_path": "/mnt/d/VYSE/VYSE/VyseAI/GC575_Test/artifacts/gc575_yuy2_240_unique_20261104/burst16_trial_20261104/ROLLED_BACK.md",
+      "bytes": 723,
+      "sha256": "ffa5e8fe81eb40959c98da63f9c136ba0322863a27d4d877db8d28159c7f7c69"
+    }
+  ],
+  "offline_recheck": {
+    "profile1_readback_matches_patch": true,
+    "profile0_unchanged": true,
+    "usbd_checksum_valid": true,
+    "profile_byte_differences": [
+      "0x9",
+      "0x7d7",
+      "0x7d8",
+      "0x7d9"
+    ],
+    "live_configuration_byte_differences": [
+      "0x18f",
+      "0x190",
+      "0x191"
+    ]
+  }
+}

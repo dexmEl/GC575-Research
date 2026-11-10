@@ -1,0 +1,38 @@
+{
+  "operation": "offline private SDK READ selector correction; no device commands",
+  "source": "C:\\Program Files (x86)\\AVerMedia\\AVerMedia Streaming Center\\RTK_IO_x64.dll",
+  "source_sha256": "b5c60027e04979106e37567bb35274c9ebeeb6f05c6e1037a6e58991d881a1c7",
+  "patched": "D:\\VYSE\\VYSE\\VyseAI\\GC575_Test\\artifacts\\gc575_yuy2_1080p240_20261104\\readback_sdk_fixed\\RTK_IO_x64.dll",
+  "patched_sha256": "7a39c55df0e390cf1c0c8ee030b31bd62ae25ac21e6f80efcc793fa1e04ff497",
+  "instruction_va": "0x6af858bc",
+  "instruction_file_offset": "0x84cbc",
+  "before_instruction": "4c8d057af92e00",
+  "after_instruction": "4c8d05df253000",
+  "old_name": "USB_DT_SSP_0",
+  "new_name": "USB_DT_SSP_01",
+  "type_selector": 7,
+  "changed_bytes": [
+    {
+      "offset": "0x84cbf",
+      "before": 122,
+      "after": 223
+    },
+    {
+      "offset": "0x84cc0",
+      "before": 249,
+      "after": 37
+    },
+    {
+      "offset": "0x84cc1",
+      "before": 46,
+      "after": 48
+    }
+  ],
+  "write_selector_unchanged": true,
+  "burn_export_unchanged": true,
+  "source_evidence": [
+    "REA ev_347b1a540b573b1982f6d698bb271ecb4e432828c03e12050334596ce73ddf6f",
+    "Capstone readback_image_methods_assembly.txt: read method body 0x6af854f0 and type-7 branch 0x6af858bc",
+    "Capstone readback_burn_assembly.txt: existing full _01 string selected by burn index1"
+  ]
+}

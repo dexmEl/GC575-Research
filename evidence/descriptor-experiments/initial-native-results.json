@@ -1,0 +1,88 @@
+{
+  "format": "1920x1080 YUY2",
+  "configured_fps": 240.003840061441,
+  "method": "Zero-copy custom native DirectShow sink reads 9 luma samples per barcode cell, three scanlines. Records every callback in preallocated memory. Excludes first 2 seconds. No renderer, frame-rate converter, FFmpeg queue, or per-frame disk writes. PC QPC arrival timestamps corroborated by IMediaSample timestamps.",
+  "runs": [
+    {
+      "run": "native_run1",
+      "measurement_window_seconds": [
+        2,
+        12
+      ],
+      "received_frames": 2208,
+      "valid_barcode_frames": 2208,
+      "invalid_barcode_frames": 0,
+      "unique_counter_ids": 2062,
+      "first_counter": 76805,
+      "last_counter": 79203,
+      "consecutive_repeated_counter_ids": 146,
+      "skip_events": 323,
+      "skipped_counter_ids": 337,
+      "backward_counter_transitions": 0,
+      "counter_delta_histogram": {
+        "0": 146,
+        "1": 1738,
+        "2": 309,
+        "3": 14
+      },
+      "qpc_span_seconds": 9.993348399999999,
+      "sample_pts_span_seconds": 9.993176999996649,
+      "received_fps_wall_clock": 220.8468985230216,
+      "received_fps_sample_pts": 220.8506864234207,
+      "distinct_counter_ids_per_second": 206.23718072312982,
+      "source_counter_advance_per_second": 239.9596115352088,
+      "sample_bytes_histogram": {
+        "4147200": 2208
+      },
+      "discontinuity_flags_in_window": 0,
+      "callback_microseconds_median": 2.5,
+      "callback_microseconds_p99": 34.6,
+      "callback_microseconds_max": 5082.0,
+      "total_frames_including_startup": 2880,
+      "total_callback_span_seconds": 13.0472389
+    },
+    {
+      "run": "native_run2",
+      "measurement_window_seconds": [
+        2,
+        12
+      ],
+      "received_frames": 2213,
+      "valid_barcode_frames": 2213,
+      "invalid_barcode_frames": 0,
+      "unique_counter_ids": 2074,
+      "first_counter": 114447,
+      "last_counter": 116846,
+      "consecutive_repeated_counter_ids": 139,
+      "skip_events": 314,
+      "skipped_counter_ids": 326,
+      "backward_counter_transitions": 0,
+      "counter_delta_histogram": {
+        "0": 139,
+        "1": 1759,
+        "2": 302,
+        "3": 12
+      },
+      "qpc_span_seconds": 9.9962544,
+      "sample_pts_span_seconds": 9.996241100001498,
+      "received_fps_wall_clock": 221.28288371692503,
+      "received_fps_sample_pts": 221.28317813379556,
+      "distinct_counter_ids_per_second": 207.37767538209113,
+      "source_counter_advance_per_second": 239.98989061342817,
+      "sample_bytes_histogram": {
+        "4147200": 2213
+      },
+      "discontinuity_flags_in_window": 0,
+      "callback_microseconds_median": 0.9,
+      "callback_microseconds_p99": 1.3,
+      "callback_microseconds_max": 15.5,
+      "total_frames_including_startup": 2880,
+      "total_callback_span_seconds": 13.0294923
+    }
+  ],
+  "limitations": [
+    "Repeated or skipped counter IDs describe the end-to-end source-to-capture path. This test does not locate their cause in the source renderer, HDMI path, capture hardware, USB link, or Windows driver.",
+    "A counter running at 240/sec does not independently prove the source HDMI output displays every counter ID.",
+    "Earlier FFmpeg runs overflowed their input queues and are excluded from the final rate conclusion."
+  ]
+}

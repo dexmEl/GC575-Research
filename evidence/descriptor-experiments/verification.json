@@ -1,0 +1,57 @@
+{
+  "timestamp": "2026-11-04T13:19:23.805820-05:00",
+  "status": "applied and verified",
+  "active_profile": 1,
+  "speed": "SuperSpeedPlus",
+  "burn_return_code": 0,
+  "profile1_sha256_before": "fdabb0300f01b52be069ef2df4245126b30379ab5a0073d835cceafd981a16a0",
+  "profile1_sha256_after": "35774489dee4ca201c0e574ecbd8e21d262984ab7fdcaebf1d5dbdd198445c76",
+  "profile1_readback_equals_patch": true,
+  "profile0_unchanged": true,
+  "installed_sdk_unchanged": true,
+  "flash_byte_changes": [
+    "0x9",
+    "0x7d7",
+    "0x7d8",
+    "0x7d9"
+  ],
+  "live_byte_changes": [
+    "0x18f",
+    "0x190",
+    "0x191"
+  ],
+  "live_configuration_equals_expected": true,
+  "live_configuration_sha256": "ee80a09ade3a6ae7b6575588428ebe4b883d1c763df14438c0ee4f9c8aa1fa52",
+  "frame": {
+    "entry_table_offset": 80,
+    "offset": 1981,
+    "offset_hex": "0x7bd",
+    "length": 50,
+    "format": {
+      "format_offset": 1760,
+      "index": 1,
+      "kind": "uncompressed",
+      "guid_hex": "5955593200001000800000aa00389b71",
+      "fourcc": "YUY2",
+      "bits_per_pixel": 16
+    },
+    "frame_index": 6,
+    "width": 1920,
+    "height": 1080,
+    "min_bit_rate": 994332671,
+    "max_bit_rate": 3981312000,
+    "max_video_frame_buffer_size": 4147200,
+    "default_interval_100ns": 166666,
+    "interval_type": 6,
+    "intervals_100ns": [
+      41666,
+      166666,
+      166833,
+      200000,
+      333333,
+      333667
+    ],
+    "raw_hex": "322405060080073804ff4f443b00004eed00483f000a8b020006c2a200000a8b0200b18b0200400d03001516050063170500"
+  },
+  "capture_testing_performed": false
+}
